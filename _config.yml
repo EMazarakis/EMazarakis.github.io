@@ -4,5 +4,14 @@ logo: /assets/Img/Eugene_Photo_2.png
 #description: Data Analyst/Data Enginner
 show_downloads: true 
 
+# Social Media Links
+social_links:
+  linkedin: "https://www.linkedin.com/in/eugene-mazarakis/"
+  youtube: "https://www.youtube.com/channel/UCyyA04JdqnbClje58REOtoA"
+  email:  "mailto:mazarakiseug@gmail.com"
+  github: "https://github.com/EMazarakis"
+  #twitter: "https://twitter.com/your-username"
+
+
 theme: jekyll-theme-minimal
 
