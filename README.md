@@ -6,8 +6,8 @@
 Hi there! I'm Eugene, a dedicated data analyst and data engineer with Microsoft certification. I'm agile, responsible, and experienced in diverse environments. I've achieved goals and honed my skills through challenging projects in the telecom and energy sectors, enriching my knowledge of various systems. I am committed to continuous improvement, consistently exploring and mastering tools and technologies that enhance cloud computing and data engineering.
 
 ## Education   		
-- M.S.,Computer Science  | National and Kapodistrian University of Athens (_August 2024_)	 			        		
-- B.S., Computer Science | National and Kapodistrian University of Athens (_September 2015_)
+- M.S., Computer Science  | National and Kapodistrian University of Athens (_August 2024_)	 			        		
+- B.S., Computer Science  | National and Kapodistrian University of Athens (_September 2015_)
 
 
 ## Work Experience
@@ -20,7 +20,7 @@ Hi there! I'm Eugene, a dedicated data analyst and data engineer with Microsoft 
 
 
 **Data Warehouse Enginner @ WIND HELLAS (_January 2019 - July 2021_)**
--Maintain Big Data platform (Cloudera HDFS, Hive, Impala).
+- Maintain Big Data platform (Cloudera HDFS, Hive, Impala).
 - Power User of IBM Cognos Analytics 11.1, a web-based business intelligence suite for reporting, dashboarding and modeling.
 - Experience in complex SQL queries, Oracle RDBMS. 
 - Training Experience with over 50 users on Cognos environment. 
