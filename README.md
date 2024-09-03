@@ -1,9 +1,6 @@
-# EMazarakis.github.io
-
-
 # Eugene Mazarakis Blog
 
 ---
 
-# General
+## General
 Repository for Eugene Mazarakis Blog
