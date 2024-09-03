@@ -43,4 +43,4 @@ Hi there! I'm Eugene, a dedicated data analyst and data engineer with Microsoft 
 
 **Microsoft: Power BI Data Analyst Associate (_Jul.2022 - Jul.2025_)**
 
-![PowerBICertification](https://github.com/EMazarakis/EMazarakis.github.io/blob/main/assets/Img/Power_BI.png)
+![PowerBICertification](/assets/Img/Power_BI.png)
