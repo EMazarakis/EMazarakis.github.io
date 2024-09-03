@@ -37,7 +37,7 @@ Hi there! I'm Eugene, a dedicated data analyst and data engineer with Microsoft 
   
 ## Certifications
 **Microsoft: Azure Data Fundamentals (_Jul.2024_)**
-![DataCertification](https://github.com/EMazarakis/EMazarakis.github.io/blob/main/assets/Img/Data_Fundamentals.PNG)
+![DataCertification](https://github.com/EMazarakis/EMazarakis.github.io/blob/main/assets/Img/Data_Fundamentals.png)
 
 **Microsoft: Power BI Data Analyst Associate (_Jul.2022 - Jul.2025_)**
 ![PowerBICertification](https://github.com/EMazarakis/EMazarakis.github.io/blob/main/assets/Img/Power_BI.PNG)
