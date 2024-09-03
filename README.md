@@ -35,5 +35,8 @@ Hi there! I'm Eugene, a dedicated data analyst and data engineer with Microsoft 
 - Address customer issues promptly and accurately within the defined schedules and service level agreements. 
 - Technologies/Tools: SQL, TOAD.
   
-## Projects
-### Todo
+## Certifications
+**Microsoft: Azure Data Fundamentals (_Jul.2024_)**
+
+**Microsoft: Power BI Data Analyst Associate (_Jul.2022 - Jul.2025_)**
+
