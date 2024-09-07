@@ -32,6 +32,7 @@ footer {
 
 .footer-content a {
     color: #007bff; /* ~Blue text color for links */
+    font-weight: bold; /* Custom link style */
     text-decoration: none; /* Remove underline from links */
     margin: 0 10px; /* Spacing between links */
 }
