@@ -63,7 +63,7 @@ Hi there! I'm Eugene, a dedicated data analyst and data engineer with Microsoft 
 
 
 ## Contact
-Feel free to get in touch with me via the [Contact page](/contact) or follow me on [LinkedIn](https://www.linkedin.com/in/eugene-mazarakis/)
+Feel free to get in touch with me via the [Contact page](/contact)
 
 
 
