@@ -1,12 +1,13 @@
 theme: jekyll-theme-minimal
-title: Eugene Mazarakis
+title: My Website
 description: A simple website using Jekyll's Minimal theme.
+
 
 
 
 #title: Eugene Mazarakis
 #logo: /assets/Img/Eugene_Photo.png
-logo: /assets/Img/Eugene_Photo_2.png
+#logo: /assets/Img/Eugene_Photo_2.png
 #description: Data Analyst/Data Enginner
 #show_downloads: true 
 
