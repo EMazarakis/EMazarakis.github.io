@@ -1,3 +1,7 @@
+url: "https://EMazarakis.github.io"
+baseurl: "" # If the site is hosted under a repository, otherwise leave it as ""
+
+
 title: Eugene Mazarakis
 #logo: /assets/Img/Eugene_Photo.png
 logo: /assets/Img/Eugene_Photo_2.png
