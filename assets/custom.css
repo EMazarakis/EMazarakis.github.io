@@ -28,16 +28,9 @@ header {
 .site-name {
     font-size: 1.5em; /* Adjust font size as needed */
     font-weight: bold; /* Make the name bold */
+    color: #007bff; /* Custom color */
 }
 
-.site-name a {
-    color: #333; /* Text color */
-    text-decoration: none; /* Remove underline */
-}
-
-.site-name a:hover {
-    text-decoration: underline; /* Underline on hover */
-}
 
 /* Navigation menu styling */
 header nav ul {
