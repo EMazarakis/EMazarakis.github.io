@@ -3,23 +3,34 @@ layout: default
 title: Contact
 ---
 
-# Contact
+# Contact Me
 
 I’d love to hear from you! You can reach me through the following channels:
 
-## Email
 
-- [Email Me](mailto:mazarakiseug@gmail.com) 
+## Email  
+
+<a href="mailto:mazarakiseug@gmail.com">
+  <i class="fas fa-envelope"></i> Email Me
+</a>
+
 
 ## LinkedIn
 
-- [Connect with me on LinkedIn](https://www.linkedin.com/in/eugene-mazarakis/) 
+<a href="https://www.linkedin.com/in/eugene-mazarakis/" target="_blank">
+  <i class="fab fa-linkedin"></i> Connect with me on LinkedIn
+</a>
+
 
 ## YouTube
 
-- [Check out my YouTube channel](https://www.youtube.com/channel/UCyyA04JdqnbClje58REOtoA) 
+<a href="https://www.youtube.com/channel/UCyyA04JdqnbClje58REOtoA" target="_blank">
+  <i class="fab fa-youtube"></i> Check out my YouTube channel
+</a>
+
 
 ## Blog
 
-- [Visit My Blog](https://the-1nf0rmant.blogspot.com/) 
-
+<a href="https://the-1nf0rmant.blogspot.com/" target="_blank">
+  <i class="fas fa-blog"></i> Visit My Blog
+</a>
