@@ -3,6 +3,6 @@ layout: default
 title: Blog
 ---
 
-# About Us
+# Blog
 
 This is the blog page.
