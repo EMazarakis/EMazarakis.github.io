@@ -12,6 +12,11 @@ I hold both a Bachelor’s and a Master’s degree in [Informatics and Telecommu
 
 If you would like to view my complete resume, please visit: [About page](/about)
 
+***
+
+## A Brief Insight into My Interests
+
+***
 
 ## Contact
 Feel free to get in touch with me via the [Contact page](/contact)
