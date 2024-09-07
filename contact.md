@@ -16,6 +16,13 @@ I’d love to hear from you! You can reach me through the following channels:
 
 
 
+### GitHub
+
+<a href="https://github.com/EMazarakis" target="_blank">
+  <i class="fab fa-github"></i> Connect with me on GitHub
+</a>
+
+
 ### LinkedIn
 
 <a href="https://www.linkedin.com/in/eugene-mazarakis/" target="_blank">
