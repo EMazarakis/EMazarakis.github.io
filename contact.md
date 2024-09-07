@@ -9,8 +9,6 @@ I am always happy to connect with others.
 Whether you have questions, comments, or just want to say hello, feel free to reach out to me through any of the contact methods listed below. 
 I look forward to hearing from you!
 
-
-
 ## Personal Media
 
 ### Email  
@@ -22,6 +20,8 @@ I look forward to hearing from you!
 <a href="https://www.facebook.com/eugeniosmaza" target="_blank">
   <i class="fab fa-facebook-f"></i> Connect with me on Facebook
 </a>
+
+***
 
 ## Professional Media
 
