@@ -44,3 +44,9 @@ I look forward to hearing from you!
 <a href="https://the-1nf0rmant.blogspot.com/" target="_blank">
   <i class="fas fa-blog"></i> Visit My Blog
 </a>
+
+### Medium Blog
+<a href="https://medium.com/@mazarakiseug" target="_blank">
+  <i class="fab fa-medium"></i> Visit My Medium Blog
+</a>
+
