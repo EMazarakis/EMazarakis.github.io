@@ -26,7 +26,7 @@ header {
 
 /* Styling for the site name */
 .site-name {
-    font-size: 1.5em; /* Adjust font size as needed */
+    font-size: 3.5em; /* Adjust font size as needed */
     font-weight: bold; /* Make the name bold */
     color: #007bff; /* Custom color */
 }
