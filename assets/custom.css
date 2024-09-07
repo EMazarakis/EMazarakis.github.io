@@ -21,10 +21,9 @@ footer {
     color: #fff; /* White text color */
     padding: 10px 0; /* Padding around the footer */
     text-align: center; /* Center align text */
-    position: fixed; /* Fix the footer to the bottom */
-    bottom: 0;
-    width: 100%;
-}
+    width: 100%; /* Full width */
+    margin-top: 20px; /* Add some space above the footer */
+} 
 
 .footer-content {
     margin: 0 auto; /* Center content */
