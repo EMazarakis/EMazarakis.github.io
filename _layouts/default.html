@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/about.md' | relative_url }}">About</a></li>
+            <li><a href="{{ '/blog.md' | relative_url }}">Blog</a></li>
+            <li><a href="{{ '/contact.md' | relative_url }}">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        {{ content }}
+    </div>
+
+    <footer>
+        &copy; 2024 My GitHub Pages Site
+    </footer>
+</body>
+</html>
