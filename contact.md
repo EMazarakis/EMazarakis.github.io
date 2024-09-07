@@ -5,7 +5,9 @@ title: Contact
 
 # Contact Me
 Welcome to my contact page! 
-I am always happy to connect with others. Whether you have questions, comments, or just want to say hello, feel free to reach out to me through any of the contact methods listed below. I look forward to hearing from you!
+I am always happy to connect with others. 
+Whether you have questions, comments, or just want to say hello, feel free to reach out to me through any of the contact methods listed below. 
+I look forward to hearing from you!
 
 
 
