@@ -10,14 +10,19 @@
 </head> 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="{{ "/" | absolute_url }}">Home</a></li>
-                <li><a href="{{ "/about" | absolute_url }}">About</a></li>
-                <li><a href="{{ "/blog" | absolute_url }}">Blog</a></li>
-                <li><a href="{{ "/contact" | absolute_url }}">Contact</a></li>
-            </ul>
-        </nav>
+         <div class="header-content">       
+            <div class="site-name">
+                <a href="{{ "/" | absolute_url }}">Eugene Mazarakis</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="{{ "/" | absolute_url }}">Home</a></li>
+                    <li><a href="{{ "/about" | absolute_url }}">About</a></li>
+                    <li><a href="{{ "/blog" | absolute_url }}">Blog</a></li>
+                    <li><a href="{{ "/contact" | absolute_url }}">Contact</a></li>
+                </ul>
+            </nav>
+       </div> 
     </header>
     <main>
         {{ content }}
