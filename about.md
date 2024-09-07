@@ -59,7 +59,7 @@ Hi there! I'm Eugene, a dedicated data analyst and data engineer with Microsoft 
 
 
 ## Resume
-- [Download My CV](/assets/E_M_Resume.pdf)  #(https://EMazarakis.github.io/blob/main/assets/E_M_Resume.pdf)
+- [Download My CV](/assets/E_M_Resume.pdf)
 
 
 ## Contact
