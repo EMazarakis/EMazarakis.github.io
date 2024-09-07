@@ -1,0 +1,16 @@
+/* assets/custom.css */
+body {
+    font-family: Arial, sans-serif; /* Custom font */
+}
+
+header nav ul {
+    background-color: #f8f9fa; /* Custom background color */
+    padding: 10px;
+}
+
+header nav ul li a {
+    color: #007bff; /* Custom link color */
+    font-weight: bold; /* Custom link style */
+}
+
+/* Add more custom styles here */
