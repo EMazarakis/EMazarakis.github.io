@@ -1,40 +1,81 @@
-/* assets/custom.css */
-
-
 /* Reset default margins and paddings */
 body, html {
     margin: 0;
     padding: 0;
 }
 
+/* Body font styling */
 body {
     font-family: Arial, sans-serif; /* Custom font */
 }
 
+/* Header styling */
+header {
+    background-color: #f8f9fa; /* Light background color for the header */
+    padding: 10px 20px; /* Padding around the header */
+    width: 100%; /* Full width */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional shadow for better visibility */
+}
+
+/* Flexbox layout for header content */
+.header-content {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Distribute space between items */
+}
+
+/* Styling for the site name */
+.site-name {
+    font-size: 1.5em; /* Adjust font size as needed */
+    font-weight: bold; /* Make the name bold */
+}
+
+.site-name a {
+    color: #333; /* Text color */
+    text-decoration: none; /* Remove underline */
+}
+
+.site-name a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Navigation menu styling */
 header nav ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display menu items inline */
     background-color: #f8f9fa; /* Custom background color */
-    padding: 10px;
+    padding: 10px; /* Padding around the nav */
+}
+
+header nav ul li {
+    margin-left: 20px; /* Space between menu items */
 }
 
 header nav ul li a {
     color: #007bff; /* Custom link color */
     font-weight: bold; /* Custom link style */
+    text-decoration: none; /* Remove underline from links */
 }
 
+header nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
 
-/* FOOTER */
-
+/* Footer styling */
 footer {
-    background-color: #f8f9fa; /* Black background color */
-    color: #007bff; /* ~Blue text color */
+    background-color: #f8f9fa; /* Light background color for the footer */
+    color: #007bff; /* Custom text color */
     padding: 10px 0; /* Padding around the footer */
     text-align: center; /* Center align text */
     width: 100%; /* Full width */
     position: relative; /* Position relative to its parent */
     margin-top: 20px; /* Add some space above the footer */
     font-weight: bold; /* Make all text in the footer bold */
-} 
+}
 
+/* Center content within footer */
 .footer-content {
     margin: 0 auto; /* Center content */
     max-width: 1200px; /* Limit max width */
@@ -42,16 +83,15 @@ footer {
 }
 
 .footer-content a {
-    color: #007bff; /* ~Blue text color for links */
+    color: #007bff; /* Custom link color */
     text-decoration: none; /* Remove underline from links */
     margin: 0 10px; /* Spacing between links */
 }
 
 .footer-content a:hover {
-    text-decoration: underline; /* Underline links on hover */
+    text-decoration: underline; /* Underline on hover */
 }
 
 .footer-content p {
     margin: 5px 0; /* Spacing around paragraphs */
 }
-
