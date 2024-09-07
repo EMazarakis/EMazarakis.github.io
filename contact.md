@@ -9,7 +9,7 @@ I’d love to hear from you! You can reach me through the following channels:
 
 
 
-## Email  
+### Email  
 <a href="mailto:mazarakiseug@gmail.com">
   <i class="fas fa-envelope"></i> Email Me
 </a>
