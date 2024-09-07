@@ -1,4 +1,12 @@
 /* assets/custom.css */
+
+
+/* Reset default margins and paddings */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif; /* Custom font */
 }
@@ -22,17 +30,19 @@ footer {
     padding: 10px 0; /* Padding around the footer */
     text-align: center; /* Center align text */
     width: 100%; /* Full width */
+    position: relative; /* Position relative to its parent */
     margin-top: 20px; /* Add some space above the footer */
+    font-weight: bold; /* Make all text in the footer bold */
 } 
 
 .footer-content {
     margin: 0 auto; /* Center content */
     max-width: 1200px; /* Limit max width */
+    padding: 0 20px; /* Add horizontal padding to avoid content touching edges */
 }
 
 .footer-content a {
     color: #007bff; /* ~Blue text color for links */
-    font-weight: bold; /* Custom link style */
     text-decoration: none; /* Remove underline from links */
     margin: 0 10px; /* Spacing between links */
 }
