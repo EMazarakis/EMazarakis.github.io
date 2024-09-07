@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contact
+permalink: /contact/
 ---
 
 # Welcome to My GitHub Pages Site
