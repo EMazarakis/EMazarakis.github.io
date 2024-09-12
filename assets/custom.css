@@ -104,7 +104,7 @@ footer {
     background-color: #f8f9fa; /* Optional: background color for the sidebar */
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: shadow for the sidebar */
-    text-align: center; /* Center-align content */
+    text-align: left; /* Center-align content,center;*/
 }
 
 /* Profile photo styling */
