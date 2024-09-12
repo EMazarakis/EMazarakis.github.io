@@ -16,6 +16,12 @@ If you would like to view my complete resume, please visit: [About page](/about)
 
 ## A Brief Insight into My Interests
 
+In 2023, I was a candidate for Mayor of Kaisariani with the political group 'ΝΕΑ ΠΡΟΟΠΤΙΚΗ ΚΑΙΣΑΡΙΑΝΗΣ'. 
+The group had 30 candidates for municipal councilors. It elected one councilor, achieving approximately 10% in the elections.
+
+For more updates on the group, you can visit its official [Facebook](https://www.facebook.com/NeaProoptikiKaisaranis) and [Instagram](https://www.instagram.com/nea_prooptiki_kaisarianis) pages.
+
+
 In 2019, I was elected as a Municipal Councilor for the Municipality of Kaisariani. 
 From 2019 to 2023, I served as the IT Consultant for the Municipality. One of the most important projects I implemented in collaboration with the municipal services was the [WIFI4EU](https://wifi4eu.ec.europa.eu/#/home) initiative, which aimed to provide free Wi-Fi connectivity for citizens and visitors in public spaces.
 
