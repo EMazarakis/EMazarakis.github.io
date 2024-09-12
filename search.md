@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Search"
+title: Search
 ---
 
 <h1>Search the site</h1>
