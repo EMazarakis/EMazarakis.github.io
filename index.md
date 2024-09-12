@@ -18,7 +18,6 @@ If you would like to view my complete resume, please visit: [About page](/about)
 
 In 2023, I was a candidate for Mayor of Kaisariani with the political group 'ΝΕΑ ΠΡΟΟΠΤΙΚΗ ΚΑΙΣΑΡΙΑΝΗΣ'. 
 The group had 30 candidates for municipal councilors. It elected one councilor, achieving approximately 10% in the elections.
-
 For more updates on the group, you can visit its official [Facebook](https://www.facebook.com/NeaProoptikiKaisaranis) and [Instagram](https://www.instagram.com/nea_prooptiki_kaisarianis) pages.
 
 
