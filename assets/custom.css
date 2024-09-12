@@ -117,7 +117,7 @@ footer {
 /* Contact info styling */
 .contact-info p {
     margin: 10px 0;
-    font-size: 0.5em; /* Standard font size */
+    font-size: 1em; /* Standard font size */
 }
 
 .contact-info a {
