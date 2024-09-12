@@ -88,3 +88,55 @@ footer {
 .footer-content p {
     margin: 5px 0; /* Spacing around paragraphs */
 }
+
+
+/* Main container for the page and sidebar */
+.main-container {
+    display: flex; /* Flexbox to display sidebar and main content side by side */
+    justify-content: flex-start; /* Align content to the left */
+    padding: 20px; /* Add padding around the content */
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 250px; /* Set a fixed width for the sidebar */
+    margin-right: 20px; /* Space between sidebar and main content */
+    background-color: #f8f9fa; /* Optional: background color for the sidebar */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: shadow for the sidebar */
+    text-align: center; /* Center-align content */
+}
+
+/* Profile photo styling */
+.profile-photo {
+    width: 100%; /* Make the image responsive */
+    border-radius: 50%; /* Make the image circular */
+    margin-bottom: 15px; /* Add space below the photo */
+}
+
+/* Contact info styling */
+.contact-info p {
+    margin: 10px 0;
+    font-size: 1em; /* Standard font size */
+}
+
+.contact-info a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Custom color for links */
+}
+
+.contact-info a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.contact-info i {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+/* Main content styling */
+main {
+    flex-grow: 1; /* Allow the main content to take the remaining space */
+    padding: 20px;
+    background-color: #ffffff; /* Background color for main content */
+}
+
