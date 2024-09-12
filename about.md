@@ -17,8 +17,10 @@ Hi there! I'm Eugene, a dedicated data analyst and data engineer with Microsoft 
 - **OS:** Unix, Windows
 
 ## Education   		
-- M.S., Computer Science  | National and Kapodistrian University of Athens (_August 2024_)	 			        		
+- M.S., Computer Science  | National and Kapodistrian University of Athens (_August 2024_)
+  -  GPA: 8.1/10	 			        		
 - B.S., Computer Science  | National and Kapodistrian University of Athens (_September 2015_)
+  - GPA: 7.66/10	   
 
 ## Work Experience
 **Data Analyst & Data Enginner @ PERFORMANCE Technologies S.A (_August 2021 - Present_)**
