@@ -16,6 +16,10 @@ If you would like to view my complete resume, please visit: [About page](/about)
 
 ## A Brief Insight into My Interests
 
+In 2019, I was elected as a Municipal Councilor for the Municipality of Kaisariani. 
+From 2019 to 2023, I served as the IT Consultant for the Municipality. One of the most important projects I implemented in collaboration with the municipal services was the [WIFI4EU](https://wifi4eu.ec.europa.eu/#/home) initiative, which aimed to provide free Wi-Fi connectivity for citizens and visitors in public spaces.
+
+
 ***
 
 ## Contact
