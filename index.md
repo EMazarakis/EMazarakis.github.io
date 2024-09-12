@@ -29,8 +29,8 @@ From 2019 to 2023, I served as the IT Consultant for the Municipality. One of th
 ***
 
 ## Fellowships - Seminars
-(_February 2018_) Full Financial support to participate in  [Mediterranean Days](https://www.facebook.com/sophiatechmeddays/posts/pfbid02Nfn3oRdMWjN3Li5sLtQKVygzBBBs6Stgv2u1119GpQWwZtCW58fBEnAyF8jM8KH3l), Campus SophiaTech, France.
-(_April 2014_) Statement of Accomplishment in the History of Art
+- (_February 2018_) Full Financial support to participate in  [Mediterranean Days](https://www.facebook.com/sophiatechmeddays/posts/pfbid02Nfn3oRdMWjN3Li5sLtQKVygzBBBs6Stgv2u1119GpQWwZtCW58fBEnAyF8jM8KH3l), Campus SophiaTech, France.
+- (_April 2014_) Statement of Accomplishment in the History of Art
 
 ***
 
