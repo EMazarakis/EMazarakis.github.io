@@ -21,6 +21,7 @@ title: Search
 
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
     <img src="{{ '/assets/Img/search_engine.PNG' | relative_url }}" alt="Image 1" style="width: 50%; margin: 10px;">
+    <a> Image was created by Pix-Art-α gen AI model. Prompt: "give me a logo of a Search Engine, use the colors of a google doodle." </a>
 </div>
-Image was created by Pix-Art-α gen AI model. 
-Prompt: "give me a logo of a  Search Engine,  use the colors of a google doodle"
+
+
