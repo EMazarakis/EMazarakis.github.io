@@ -7,8 +7,8 @@ title: Home
 
 ## A Brief Overview of My Career and Professional Endeavors
 My name is Eugene Mazarakis, and I am 34 years old. I have been working as a Data Analyst and Data Engineer at [Performance Technologies](https://www.performance.gr/) since August 2021. Previously, I worked at Wind Hellas as a Data Warehouse Engineer. 
-I gained skills and experience through challenging projects in the telecom, energy, banking, and betting sectors
-I possess a strong foundation in a wide range of technical skills, spanning cloud services, databases, business intelligence, and programming. Experienced with Azure (Data Factory, Synapse), RDBMS (Oracle, MS SQL), BI tools (Power BI, Tableau), and proficient in C, C++, Python, Unix, and Windows.
+
+I gained skills and experience through challenging projects in the telecom, energy, banking, and betting sectors. I possess a strong foundation in a wide range of technical skills, spanning cloud services, databases, business intelligence, and programming. Experienced with Azure (Data Factory, Synapse), RDBMS (Oracle, MS SQL), BI tools (Power BI, Tableau), and proficient in C, C++, Python, Unix, and Windows.
 
 I hold both a Bachelor’s and a Master’s degree in [Informatics and Telecommunications](https://www.di.uoa.gr/) from the National and Kapodistrian University of Athens, located in Panepistimioupoli, Ilissia.
 
