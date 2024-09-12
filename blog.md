@@ -4,6 +4,7 @@ title: Blog
 ---
 
 <h1>Blog</h1>
+Welcome to my first blog post! This is where I’ll be sharing updates, tutorials, and interesting things about my work.
 
 <ul>
   {% for post in site.posts %}
