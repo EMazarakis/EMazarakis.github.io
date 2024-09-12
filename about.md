@@ -4,7 +4,10 @@ title: About
 ---
 
 # About Me
-Hi there! I'm Eugene, a dedicated data analyst and data engineer with Microsoft certification. I'm agile, responsible, and experienced in diverse environments. I've achieved goals and honed my skills through challenging projects in the telecom and energy sectors, enriching my knowledge of various systems. I am committed to continuous improvement, consistently exploring and mastering tools and technologies that enhance cloud computing and data engineering.
+Hi there! I'm Eugene, a dedicated data analyst and data engineer with Microsoft certification. 
+I'm agile, responsible, and experienced in diverse environments. 
+I've achieved goals and honed my skills through challenging projects in the telecom and energy sectors, enriching my knowledge of various systems.
+I am committed to continuous improvement, consistently exploring and mastering tools and technologies that enhance cloud computing and data engineering.
 
 
 ## Technical Skills 
