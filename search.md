@@ -19,15 +19,7 @@ title: Search
 </script>
 
 
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+    <img src="{{ '/assets/Img/search_engine.PNG' | relative_url }}" alt="Image 1" style="width: 50%; margin: 10px;">
+</div>
 
-
-
-
-
-
-
-
-***
-
-
-***
