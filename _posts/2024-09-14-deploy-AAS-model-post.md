@@ -45,16 +45,16 @@ If we have a tabular model on UAT environment and want to transfer it to Product
 
 10. Save the changes to the Model.bim file.
 > If the Tabular Model Explorer disappears at any time, simply double-click the Model.bim file to reopen it.
-12. When you go to the Tabular Model Explorer, you should now see the new data source name you selected in step 5 under Data Sources.
+11. When you go to the Tabular Model Explorer, you should now see the new data source name you selected in step 5 under Data Sources.
 
-![Photo 6(/assets/Img/BlogImages/001.BlogPost_14_09_2024/6.png)
+![Photo 6](/assets/Img/BlogImages/001.BlogPost_14_09_2024/6.png)
 
 12. Finally, we need to Process Table for each table in the model.
 13. Now, we are ready to deploy the model to the production server. In Solution Explorer, right-click on the project name and go to Properties. Update the deployment server with the Production environment values.
 
-![Photo 7(/assets/Img/BlogImages/001.BlogPost_14_09_2024/7.png)
-![Photo 8(/assets/Img/BlogImages/001.BlogPost_14_09_2024/8.png)
-![Photo 9(/assets/Img/BlogImages/001.BlogPost_14_09_2024/9.png)
+![Photo 7](/assets/Img/BlogImages/001.BlogPost_14_09_2024/7.png)
+![Photo 8](/assets/Img/BlogImages/001.BlogPost_14_09_2024/8.png)
+![Photo 9](/assets/Img/BlogImages/001.BlogPost_14_09_2024/9.png)
 
 
 ## Wrap-Up
