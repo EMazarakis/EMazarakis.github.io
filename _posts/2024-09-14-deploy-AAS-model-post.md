@@ -18,50 +18,47 @@ Tabular models in Analysis Services are databases that run in-memory or in Direc
 ## Edit the Model.bim file
 If we have a tabular model on UAT environment and want to transfer it to Production environment we should edit the Model.bim file and do the following steps:
 
-1. Inside the Visual Studio project, we go to Tabular Model Explorer. Here we can see the name of the data source.
+- Inside the Visual Studio project, we go to Tabular Model Explorer. Here we can see the name of the data source.
 
 ![Photo 1](/assets/Img/BlogImages/001.BlogPost_14_09_2024/1.png)
 
-2. Click on the Solution Explorer tab.
+- Click on the Solution Explorer tab.
 
 ![Photo 2](/assets/Img/BlogImages/001.BlogPost_14_09_2024/2.png)
 
-
-3. Right-click on the Model.bim file and select View Code.
-> [!NOTE]
+- Right-click on the Model.bim file and select View Code.
+> **NOTE**
 > Τhe Model.bim file contains the metadata for the model project, which is why we need to make changes there.
 
 ![Photo 3](/assets/Img/BlogImages/001.BlogPost_14_09_2024/3.png)
 
-4. When the Model.bim file is open, you will see the data source at the top.
+- When the Model.bim file is open, you will see the data source at the top.
 
-5. Replace the existing data source name with the desired new name.
-> [!NOTE]
+- Replace the existing data source name with the desired new name.
+
+> **NOTE**
 > You can choose a general name, e.g., SOURCE_AZURE_SYNAPSE_NAME.
 
-6. Next, update the server and database in the address JSON label with the Production environment values.
-
-7. Also, update the path and username in the credentials JSON label with the Production environment values.
+- Next, update the server and database in the address JSON label with the Production environment values.
+- Also, update the path and username in the credentials JSON label with the Production environment values.
 
 ![Photo 4](/assets/Img/BlogImages/001.BlogPost_14_09_2024/4.png)
 
-8. Next, navigate to each table in the partitions JSON label.
-
-9. In the expression JSON label, enter the data source name from step 5 in the let → source field.
+- Next, navigate to each table in the partitions JSON label.
+- In the expression JSON label, enter the data source name from step 5 in the let → source field.
 
 ![Photo 5](/assets/Img/BlogImages/001.BlogPost_14_09_2024/5.png)
 
-10. Save the changes to the Model.bim file.
-> [!TIP]
+- Save the changes to the Model.bim file.
+> **TIP**
 > If the Tabular Model Explorer disappears at any time, simply double-click the Model.bim file to reopen it.
 
-11. When you go to the Tabular Model Explorer, you should now see the new data source name you selected in step 5 under Data Sources.
+- When you go to the Tabular Model Explorer, you should now see the new data source name you selected in step 5 under Data Sources.
 
 ![Photo 6](/assets/Img/BlogImages/001.BlogPost_14_09_2024/6.png)
 
-12. Finally, we need to Process Table for each table in the model.
-
-13. Now, we are ready to deploy the model to the production server. In Solution Explorer, right-click on the project name and go to Properties. Update the deployment server with the Production environment values.
+- Finally, we need to Process Table for each table in the model.
+- Now, we are ready to deploy the model to the production server. In Solution Explorer, right-click on the project name and go to Properties. Update the deployment server with the Production environment values.
 
 ![Photo 7](/assets/Img/BlogImages/001.BlogPost_14_09_2024/7.png)
 
