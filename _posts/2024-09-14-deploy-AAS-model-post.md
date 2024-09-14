@@ -27,7 +27,7 @@ If we have a tabular model on UAT environment and want to transfer it to Product
 ![Photo 2](/assets/Img/BlogImages/001.BlogPost_14_09_2024/2.png)
 
 - Right-click on the Model.bim file and select View Code.
-> **$\color{Cyan}{Note}$** , $\color{Cyan}{Note}$, $\color{Cyan}{**Note**}$
+> $\color{Cyan}{Note}$
 > Τhe Model.bim file contains the metadata for the model project, which is why we need to make changes there.
 
 ![Photo 3](/assets/Img/BlogImages/001.BlogPost_14_09_2024/3.png)
