@@ -27,7 +27,7 @@ If we have a tabular model on UAT environment and want to transfer it to Product
 ![Photo 2](/assets/Img/BlogImages/001.BlogPost_14_09_2024/2.png)
 
 - Right-click on the Model.bim file and select View Code.
-> $\color{Cyan}{NOTE}$
+> **NOTE**
 > Τhe Model.bim file contains the metadata for the model project, which is why we need to make changes there.
 
 ![Photo 3](/assets/Img/BlogImages/001.BlogPost_14_09_2024/3.png)
@@ -36,7 +36,7 @@ If we have a tabular model on UAT environment and want to transfer it to Product
 
 - Replace the existing data source name with the desired new name.
 
->  $\color{Cyan}{NOTE}$
+>  **NOTE**
 > You can choose a general name, e.g., SOURCE_AZURE_SYNAPSE_NAME.
 
 - Next, update the server and database in the address JSON label with the Production environment values.
@@ -50,7 +50,7 @@ If we have a tabular model on UAT environment and want to transfer it to Product
 ![Photo 5](/assets/Img/BlogImages/001.BlogPost_14_09_2024/5.png)
 
 - Save the changes to the Model.bim file.
->  $\color{Green}{TIP}$
+>  **TIP**
 > If the Tabular Model Explorer disappears at any time, simply double-click the Model.bim file to reopen it.
 
 - When you go to the Tabular Model Explorer, you should now see the new data source name you selected in step 5 under Data Sources.
