@@ -13,6 +13,8 @@ tags: [Azure, AAS, Visual Studio, Tabular Model]
 Tabular models in Analysis Services are databases that run in-memory or in Direct Query mode, connecting to data from back-end relational data sources. Tabular models in Analysis Services are databases that run either in-memory or in Direct Query mode, connecting to data from back-end relational data sources. Using Microsoft Visual Studio, the authoring tool, we can create tabular models. The data model provides an easier and faster way for users to perform ad hoc data analysis with tools like Power BI and Excel.
 
 ### Photo 0
+![Photo 0](/assets/Img/BlogImages/001.BlogPost_14_09_2024/0.png)
+
 
 ## Edit the Model.bim file
 If we have a tabular model on UAT environment and want to transfer it to Production environment we should edit the Model.bim file and do the following steps:
