@@ -37,7 +37,7 @@ We aim to evaluate their ability to count the occurrences of the letter 'x' with
 1. Πόσες φορές εμφανίζεται το γράμμα “σ” μέσα στη λέξη “λυσσασμένος”?
 
 
-#![Photo 0](/assets/Img/BlogImages/001.BlogPost_14_09_2024/0.png)
+[ ![Photo 0](/assets/Img/BlogImages/001.BlogPost_14_09_2024/0.png) ]
 
 
 
