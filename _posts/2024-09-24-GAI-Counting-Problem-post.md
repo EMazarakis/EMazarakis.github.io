@@ -36,9 +36,3 @@ This is the prompt we provide to Gemini, Copilot, and ChatGPT. We aim to evaluat
 
 ### Greek Words
 1. Πόσες φορές εμφανίζεται το γράμμα “σ” μέσα στη λέξη “λυσσασμένος”?
-
-
-<--![Photo 0](/assets/Img/BlogImages/001.BlogPost_14_09_2024/0.png)-->
-
-
-
