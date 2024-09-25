@@ -9,8 +9,10 @@ tags: [ISOYear, MS SQL db, Azure Synapse Anlytics]
 
 # Introduction 
 
-
+A calendar table can be highly valuable, especially for reporting purposes and for calculating elements such as the ISO Year.
 The first week of the ISO year is the week that contains January 4. The ISO Year is based on ISO 8061 standard.
+
+>How can the ISO Year be calculated in MS SQL Database or Synapse? In contrast, Vertica and Oracle provide a built-in method for this.
 
 
 ## Vertica
