@@ -39,7 +39,7 @@ This is the prompt we provide to Gemini, Copilot, and ChatGPT. We aim to evaluat
 
    
 ## Dictionary per model
-Word , Letter
+Below we see, per model, the words in which they fail to correctly calculate the occurrence of the letters.
 
 ### chatGPT
 1. acceptance , c
