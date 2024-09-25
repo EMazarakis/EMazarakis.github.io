@@ -44,8 +44,7 @@ Word , Letter
 
 ### chatGPT
 1. acceptance , c
-2. grapefruit , r
-3. strawberry , r 
+2. strawberry , r 
 
 ### Gemini
 1. acceptance , c
