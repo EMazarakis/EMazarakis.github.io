@@ -65,8 +65,6 @@ Word , Letter
 
 ### Copilot
 1. acceptance , c
-2. dumbfounded , d
-3. grapefruit , r
-4. strawberry , r
 
+![Photo 3](/assets/Img/BlogImages/002.BlogPost_24_09_2024/003.copilot_counting.png)
 
