@@ -32,8 +32,7 @@ This is the prompt we provide to Gemini, Copilot, and ChatGPT. We aim to evaluat
 
 ### English Words
 1. How many times does the letter “c” appear in the word “acceptance” ?
-2. How many times does the letter “r” appear in the word “grapefruit” ?
-3. How many times does the letter “r” appear in the word “strawberry” ?
+2. How many times does the letter “r” appear in the word “strawberry” ?
 
 ### Greek Words
 1. Πόσες φορές εμφανίζεται το γράμμα “σ” μέσα στη λέξη “λυσσασμένος”?
@@ -53,14 +52,12 @@ Word , Letter
 ### Gemini
 1. acceptance , c
 2. agreement , e
-3. aggressiveness , s
-4. assassinate , s
-5. grapefruit , r
-6. keeper , e
-7. strawberry , r
-8. weeded , e
-9. weekend , e
+3. keeper , e
+4. strawberry , r
+5. weekend , e
 
+1. λυσσασμένος, σ
+   
 ---
 
 ### Copilot
