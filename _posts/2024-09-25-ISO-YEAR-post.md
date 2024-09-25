@@ -62,12 +62,12 @@ ORDER BY 1 DESC
 
 ```
 SELECT	a.testDate
-		, YEAR(a.testDate) AS YEAR
-		, CASE 
-			WHEN MONTH(a.testDate) = 1 AND DATEPART(ISO_WEEK,  a.testDate) > 51 THEN YEAR(a.testDate) - 1 
-			WHEN MONTH(a.testDate) = 12 AND DATEPART(ISO_WEEK,  a.testDate) = 1  THEN YEAR(a.testDate) + 1 
-			ELSE YEAR(a.testDate)
-		END 
+	, YEAR(a.testDate) AS YEAR
+	, CASE 
+		WHEN MONTH(a.testDate) = 1 AND DATEPART(ISO_WEEK,  a.testDate) > 51 THEN YEAR(a.testDate) - 1 
+		WHEN MONTH(a.testDate) = 12 AND DATEPART(ISO_WEEK,  a.testDate) = 1  THEN YEAR(a.testDate) + 1 
+		ELSE YEAR(a.testDate)
+	END 
 FROM
 (
 	select CAST('2024-12-31' AS DATE) as testDate
