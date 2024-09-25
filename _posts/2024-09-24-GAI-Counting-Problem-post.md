@@ -48,6 +48,15 @@ Word , Letter
 3. strawberry , r 
 
 ### Gemini
+1. acceptance , c
+2. agreement , e
+3. aggressiveness , s
+4. assassinate , s
+5. grapefruit , r
+6. keeper , e
+7. strawberry , r
+8. weeded , e
+9. weekend , e
 
 
 ### Copilot
