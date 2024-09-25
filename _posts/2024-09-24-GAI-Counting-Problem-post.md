@@ -57,6 +57,8 @@ Word , Letter
 5. weekend , e
 
 1. λυσσασμένος, σ
+
+![Photo 2](/assets/Img/BlogImages/002.BlogPost_24_09_2024/002.Gemini_counting.png)
    
 ---
 
