@@ -7,8 +7,18 @@ author: "Eugene Mazarakis"
 tags: [ISOYear, MS SQL db, Azure Synapse Anlytics]
 ---
 
+# Introduction 
+
+Returns an integer that represents the year portion of the specified date. 
+
+The first week of the ISO year is the week that contains January 4. The ISO Year is based on ISO 8061 standard.
+
 
 ### Vertica
+
+Vertica has a built-in function in order to calculate the ISO Year.
+*YEAR_ISO(date)*
+
 ```
 SELECT a.testDate, YEAR(a.testDate), YEAR_ISO(a.testDate)
 FROM
@@ -33,6 +43,9 @@ ORDER BY 1 DESC
 ---
 
 ### Oracle
+
+Oracle provides a built-in function designed to calculate the ISO year, using the appropriate keyword as a parameter.
+*TO_CHAR( value , format_mask )*
 
 ```
 SELECT a.testDate, to_char(a.testDate, 'yyyy') as Year, to_char(a.testDate, 'iyyy') "ISO Year"
@@ -60,6 +73,8 @@ ORDER BY 1 DESC
 
 ### MS SQL db, Azure Synapse Analytics
 
+MS SQL Database and Azure Synapse Analytics do not offer a built-in function to calculate the ISO year. Therefore, it is necessary to implement a CASE WHEN expression to achieve this functionality.
+
 ```
 SELECT	a.testDate
 	, YEAR(a.testDate) AS YEAR
@@ -67,7 +82,7 @@ SELECT	a.testDate
 		WHEN MONTH(a.testDate) = 1 AND DATEPART(ISO_WEEK,  a.testDate) > 51 THEN YEAR(a.testDate) - 1 
 		WHEN MONTH(a.testDate) = 12 AND DATEPART(ISO_WEEK,  a.testDate) = 1  THEN YEAR(a.testDate) + 1 
 		ELSE YEAR(a.testDate)
-	END 
+	END AS "ISO Year"
 FROM
 (
 	select CAST('2024-12-31' AS DATE) as testDate
