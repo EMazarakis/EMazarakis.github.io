@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ISO Year on MS SQL database"
+title: "ISO Year on MS SQL db ... a painful story." 
 date: 2024-09-25
 categories: blog
 author: "Eugene Mazarakis"
