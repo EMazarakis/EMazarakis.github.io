@@ -46,7 +46,7 @@ Word , Letter
 1. acceptance , c
 2. strawberry , r 
 
-![Photo 1](/assets/Img/BlogImages/002.BlogPost_24_09_2024/001.chatGPT counting.png)
+![Photo 1](/assets/Img/BlogImages/002.BlogPost_24_09_2024/001.chatGPT_counting.png)
 
 ---
 
