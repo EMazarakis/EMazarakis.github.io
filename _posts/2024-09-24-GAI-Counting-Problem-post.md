@@ -23,30 +23,37 @@ Let’s define the prompt for the models:
 
 Prompt: How many times does the letter **“x”** appear in the word **“XXXX”** ?
 
-XXXX: Word\
-X: Letter\
+XXXX: Word
+X: Letter
 
 This is the prompt we provide to Gemini, Copilot, and ChatGPT. We aim to evaluate their ability to count the occurrences of the letter 'x' within the word XXXX.
 
 ## Examples
+
 ### English Words
 1. How many times does the letter “c” appear in the word “acceptance” ?
 2. How many times does the letter “r” appear in the word “grapefruit” ?
-
-## Dictionary per model
-
-### chatGPT
-| Word | Letter |
-|-- | -- |
-| acceptance | c |
-| grapefruit | r |
-| strawberry | r |
-
-
-### Gemini
-
-### Copilot
 3. How many times does the letter “r” appear in the word “strawberry” ?
 
 ### Greek Words
 1. Πόσες φορές εμφανίζεται το γράμμα “σ” μέσα στη λέξη “λυσσασμένος”?
+
+   
+## Dictionary per model
+
+### chatGPT
+Word , Letter
+1. acceptance , c
+2. grapefruit , r
+3. strawberry , r 
+
+### Gemini
+
+
+### Copilot
+1. acceptance , c
+2. dumbfounded , d
+3. grapefruit , r
+4. strawberry , r
+
+
