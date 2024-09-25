@@ -40,9 +40,9 @@ This is the prompt we provide to Gemini, Copilot, and ChatGPT. We aim to evaluat
 
    
 ## Dictionary per model
+Word , Letter
 
 ### chatGPT
-Word , Letter
 1. acceptance , c
 2. grapefruit , r
 3. strawberry , r 
