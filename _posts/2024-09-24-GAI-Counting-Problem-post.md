@@ -32,6 +32,20 @@ This is the prompt we provide to Gemini, Copilot, and ChatGPT. We aim to evaluat
 ### English Words
 1. How many times does the letter “c” appear in the word “acceptance” ?
 2. How many times does the letter “r” appear in the word “grapefruit” ?
+
+## Dictionary per model
+
+### chatGPT
+| Word | Letter |
+|-- | -- |
+| acceptance | c |
+| grapefruit | r |
+| strawberry | r |
+
+
+### Gemini
+
+### Copilot
 3. How many times does the letter “r” appear in the word “strawberry” ?
 
 ### Greek Words
