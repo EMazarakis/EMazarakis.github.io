@@ -21,10 +21,10 @@ We will examine three "LLMs": Gemini, chatGPT, Copilot.
 
 Let’s define the prompt for the models:
 
-Prompt: How many times does the letter “x” appear in the word “XXXX”?
+Prompt: How many times does the letter **“x”** appear in the word **“XXXX”** ?
 
-XXXX: Word_ _ 
-X: Letter_ _
+XXXX: Word\
+X: Letter\
 
 This is the prompt we provide to Gemini, Copilot, and ChatGPT. We aim to evaluate their ability to count the occurrences of the letter 'x' within the word XXXX.
 
