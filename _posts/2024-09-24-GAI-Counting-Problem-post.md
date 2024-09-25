@@ -11,6 +11,7 @@ tags: [AI, GAI, LLMs, Gemini, chatGpt, Copilot]
 ## Introduction
 
 The Devil's Dictionary is a satirical dictionary written by American journalist Ambrose Bierce, consisting of common words followed by humorous and satirical definitions. 
+
 Today, we will try to write our own dictionary, The AI's dictionary.
 This dictionary will consist of common words in which AI models failed to accurately count the occurrences of a certain letter within a word.
 We will examine three "LLMs": Gemini, chatGPT, Copilot.
@@ -22,9 +23,8 @@ Let’s define the prompt for the models:
 
 Prompt: How many times does the letter “x” appear in the word “XXXX”?
 
-XXXX: Word 
-
-X: Letter
+XXXX: Word_ _ 
+X: Letter_ _
 
 This is the prompt we provide to Gemini, Copilot, and ChatGPT. We aim to evaluate their ability to count the occurrences of the letter 'x' within the word XXXX.
 
