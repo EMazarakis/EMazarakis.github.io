@@ -55,8 +55,7 @@ Word , Letter
 3. keeper , e
 4. strawberry , r
 5. weekend , e
-
-1. λυσσασμένος, σ
+6. λυσσασμένος, σ
 
 ![Photo 2](/assets/Img/BlogImages/002.BlogPost_24_09_2024/002.Gemini_counting.png)
    
