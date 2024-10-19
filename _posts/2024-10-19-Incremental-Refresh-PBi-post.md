@@ -22,6 +22,19 @@ Our data resides in Azure Synapse Analytics, and we will connect to it using Pow
 
 >  **TIP**
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Shared Capacity Limitations
 1. A shared capacity workspace has a semantic model/report size limit of 1 GB.
 2. We cannot connect to a Power BI shared workspace using SSMS or Tabular Editor to manipulate the tables’ partitions. (TODO)
