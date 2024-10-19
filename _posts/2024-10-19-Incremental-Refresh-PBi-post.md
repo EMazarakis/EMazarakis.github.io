@@ -14,3 +14,9 @@ Let's assume that we have the following architecture:
 
 ![Photo 0](/assets/Img/BlogImages/004.BlogPost_19_10_2024/000.architecture.jpg)
 
+Our data resides in Azure Synapse Analytics, and we will connect to it using Power BI Desktop to create a semantic model. We will then apply an incremental refresh policy, which enables the creation of partitions in the tables. Once the model is ready, we will publish it to Power BI Service within a premium workspace.
+
+>  **NOTE**
+> While it is possible to publish the model in a shared workspace, this option comes with certain limitations regarding the management of the model’s partitions.
+
+>  **TIP**
