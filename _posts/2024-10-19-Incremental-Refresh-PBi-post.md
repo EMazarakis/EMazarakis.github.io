@@ -27,7 +27,8 @@ The semantic model to be created will have the following specifications:
 3. Two parameters will be implemented to enable incremental refresh.
    - RangeStart & RangeEnd (be careful **case sensitive** and **DateTime** data type)
 4. Incremental refresh policy will be applied:
-   - Partitions will be created for **XXX historical months** and **YYY refresh period**.
+   - Partitions will be created for **XXX historical** months and **YYY refresh period** months. For this case, we will work with the month option.
+   - Alternatively, we can select years, quarters, or days for the historical period and refresh period.
 
 
 
