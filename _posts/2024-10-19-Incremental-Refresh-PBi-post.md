@@ -17,6 +17,11 @@ Let's assume that we have the following architecture:
 Our data resides in Azure Synapse Analytics, and we will connect to it using Power BI Desktop to create a semantic model. We will then apply an incremental refresh policy, which enables the creation of partitions in the tables. Once the model is ready, we will publish it to Power BI Service within a premium workspace.
 
 >  **NOTE**
-> While it is possible to publish the model in a shared workspace, this option comes with certain limitations regarding the management of the model’s partitions.
+> While it is possible to publish the model in a shared workspace, this option comes with certain limitations regarding the management of the model’s partitions. [Go to Section](#Shared Capacity Limitations)
+
 
 >  **TIP**
+
+# Shared Capacity Limitations
+1. A shared capacity workspace has a semantic model/report size limit of 1 GB.
+2. We cannot connect to a Power BI shared workspace using SSMS or Tabular Editor to manipulate the tables’ partitions. (TODO)
