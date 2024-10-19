@@ -20,21 +20,20 @@ Our data resides in Azure Synapse Analytics, and we will connect to it using Pow
 > While it is possible to publish the model in a shared workspace, this option comes with certain limitations regarding the management of the model’s partitions. [Go to Section: Shared Capacity Limitations](#Shared Capacity Limitations)
 
 
+## Semantic model specifications
+The semantic model to be created will have the following specifications:
+1. Import storage mode will be utilized.
+   - Partitioning works only with this type of mode.
+3. Two parameters will be implemented to enable incremental refresh.
+   - RangeStart & RangeEnd (be careful **case sensitive** and **DateTime** data type)
+4. Incremental refresh policy will be applied:
+   - Partitions will be created for **XXX historical months** and **YYY refresh period**.
+
+
+
+
 >  **TIP**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Shared Capacity Limitations
+## Shared Capacity Limitations
 1. A shared capacity workspace has a semantic model/report size limit of 1 GB.
 2. We cannot connect to a Power BI shared workspace using SSMS or Tabular Editor to manipulate the tables’ partitions. (TODO)
