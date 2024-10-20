@@ -38,3 +38,18 @@ The semantic model to be created will have the following specifications:
 ## Shared Capacity Limitations
 1. A shared capacity workspace has a semantic model/report size limit of 1 GB.
 2. We cannot connect to a Power BI shared workspace using SSMS or Tabular Editor to manipulate the tables’ partitions. (TODO)
+
+[GitHub Pages](https://pages.github.com/)
+
+## References
+1. [Incremental Refresh Overview](https://learn.microsoft.com/en-us/power-bi/connect-data/incremental-refresh-overview)
+2. [Define Incremental Refresh Policy on table](https://learn.microsoft.com/en-us/power-bi/connect-data/incremental-refresh-configure#define-policy)
+3. [Create Parameters](https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-dynamic-m-query-parameters#create-and-use-dynamic-parameters)
+4. [Reference Parameters in the M query](https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-dynamic-m-query-parameters#reference-the-parameters-in-the-m-query)
+5. [Partitions](https://learn.microsoft.com/en-us/power-bi/connect-data/incremental-refresh-xmla#partitions)
+6. [Refresh History of the semantic model](https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-connect-tools#semantic-model-refresh)
+7. [size of the Semantic Model on PBI Service](https://community.fabric.microsoft.com/t5/Service/How-do-I-check-the-size-of-a-dataset-published-to-to-the-Power/m-p/1054316#M94213)
+8. [Get the workspace connection URL](https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-connect-tools#to-get-the-workspace-connection-url)
+9. [Connect to workspace by using SSMS](https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-connect-tools#connect-to-a-workspace-by-using-ssms)
+10. [Refresh Partition with SSMS](https://learn.microsoft.com/en-us/power-bi/connect-data/incremental-refresh-xmla#refresh-management-with-sql-server-management-studio)
+11. [Tabular Editor Apply Incremental Refresh Policy](https://learn.microsoft.com/en-us/power-bi/connect-data/incremental-refresh-xmla#apply-refresh-policy) 
