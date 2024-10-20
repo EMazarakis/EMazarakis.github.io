@@ -86,14 +86,14 @@ In order to create and publish the semantic model, we do the following steps:
     - Go to Home > Publish, and select the desired workspace.
 23. After publishing, you will see two items in the Power BI Service workspace:
    - The Semantic Model.
-   - The Report.
+   - The Report. (This should be empty.)
 24. Set up the connection between Power BI Service and the Synapse source (handled by the service admin/owner):
    - Go to the semantic model in Power BI Service, select More options (...) > Settings.
    - Under Gateway and Cloud options, ensure the connection settings are correct.
 25. Perform an on-demand refresh:
    - In the Power BI Service workspace, select the model and click Refresh Now.
-   - During this step, the incremental refresh policy will be applied, loading data and creating partitions.
-26. To view the refresh duration:
+   - During this step, the incremental refresh policy will be applied, loading data and creating partitions. This may take a while.
+26. To see the refresh duration:
    -	Go to the semantic model, click More options (...) > Refresh History.
 
 
