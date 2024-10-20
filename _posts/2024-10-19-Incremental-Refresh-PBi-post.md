@@ -47,16 +47,16 @@ In order to create and publish the semantic model, we do the following steps:
     ![Photo 3](/assets/Img/BlogImages/004.BlogPost_19_10_2024/003.load_data_preview.png)
    
 5. After loading, a table will be created in Power BI model, typically named something like "Query1".
-    ![Photo 4](/assets/Img/BlogImages/004.BlogPost_19_10_2024/004.Query_table_created.png) 
+   ![Photo 4](/assets/Img/BlogImages/004.BlogPost_19_10_2024/004.Query_table_created.png) 
    
-8. Open the Power Query Editor to transform your "Query1" (e.g., renaming, adding parameters).
+6. Open the Power Query Editor to transform your "Query1" (e.g., renaming, adding parameters).
    - Go to Home > Transform > Transform Data.
    ![Photo 5](/assets/Img/BlogImages/004.BlogPost_19_10_2024/005.Transform_data.png) 
    
-10. In the Power Query Editor:
+7. In the Power Query Editor:
    - First, rename the "Query1" table to something more descriptive SALES_DATA (based on the business data).
-        - Double-click on the table name to rename it.
-        ![Photo 6](/assets/Img/BlogImages/004.BlogPost_19_10_2024/006.power_query_rename_table.png)
+   - Double-click on the table name to rename it.
+   ![Photo 6](/assets/Img/BlogImages/004.BlogPost_19_10_2024/006.power_query_rename_table.png)
    
           
 11. Select the SALES_DATA table, then check the APPLIED STEPS pane on the right.
