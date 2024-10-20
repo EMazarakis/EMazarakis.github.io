@@ -135,27 +135,44 @@ In order to create and publish the semantic model, we do the following steps:
 - Now, you are out of the power query editor. It's time to set-up the incremental refresh policy for the SALES_DATA table.
     - Select the SALES_DATA table from the Data pane, go to More options (...) > Incremental Refresh.
 
+![Photo 17](/assets/Img/BlogImages/004.BlogPost_19_10_2024/017.Incremental_refresh.png)
 
-23. In the pop-up window, do the followings:
+
+- In the pop-up window, do the followings:
     - First, select the desired table.
     - Enable the option Set import and refresh ranges.
     - Define the historical period for partitioning and refresh:
       - Archive data starting [X months] before refresh date (e.g., 3 months).
       - Incrementally refresh data starting [X months] before refresh date (e.g., 1 month, to define the last level of partition).
     - Click Apply.
-24. The incremental refresh policy is now defined but not yet applied.
-25. Publish the model to Power BI Service:
+ 
+![Photo 18](/assets/Img/BlogImages/004.BlogPost_19_10_2024/018.apply_incremental_refresh.png)
+ 
+  
+- The incremental refresh policy is now defined but not yet applied.
+- Publish the model to Power BI Service:
     - Go to Home > Publish, and select the desired workspace.
-26. After publishing, you will see two items in the Power BI Service workspace:
+
+![Photo 19](/assets/Img/BlogImages/004.BlogPost_19_10_2024/019.publish_the_model.png)
+
+
+- After publishing, you will see two items in the Power BI Service workspace:
    - The Semantic Model.
-   - The Report. (This should be empty.)
-24. Set up the connection between Power BI Service and the Synapse source (handled by the service admin/owner):
+   - The Report. 
+- Set up the connection between Power BI Service and the Synapse source (handled by the service admin/owner):
    - Go to the semantic model in Power BI Service, select More options (...) > Settings.
    - Under Gateway and Cloud options, ensure the connection settings are correct.
-25. Perform an on-demand refresh:
+
+![Photo 20](/assets/Img/BlogImages/004.BlogPost_19_10_2024/020.semantic_model_settings.png)
+![Photo 21](/assets/Img/BlogImages/004.BlogPost_19_10_2024/021.gateway_connections.png)
+
+- Perform an on-demand refresh:
    - In the Power BI Service workspace, select the model and click Refresh Now.
    - During this step, the incremental refresh policy will be applied, loading data and creating partitions. This may take a while.
-26. To see the refresh duration:
+
+![Photo 22](/assets/Img/BlogImages/004.BlogPost_19_10_2024/022.refresh_now.png)
+
+- To see the refresh duration:
    -	Go to the semantic model, click More options (...) > Refresh History.
 
 
