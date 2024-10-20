@@ -34,32 +34,35 @@ The semantic model to be created will have the following specifications:
 In order to create and publish the semantic model, we do the following steps:
 1. Open a new Power BI (.pbix) file.
 2. Select Get Data > Azure > Azure Synapse Analytics SQL, then click Connect.
- ![Photo 1](/assets/Img/BlogImages/004.BlogPost_19_10_2024/001.Get_Data.png) 
+![Photo 1](/assets/Img/BlogImages/004.BlogPost_19_10_2024/001.Get_Data.png) 
 
 3. In the pop-up window, enter the following details:
    - Server
    - Database
    - Import: Enabled
    - SQL statement: Include the appropriate SQL query here if you prefer not to load the entire table.
-      ![Photo 2](/assets/Img/BlogImages/004.BlogPost_19_10_2024/002.Connect_to_synapse.png) 
+![Photo 2](/assets/Img/BlogImages/004.BlogPost_19_10_2024/002.Connect_to_synapse.png) 
   
 4. In the next window, you'll see data preview. Click Load.
-    ![Photo 3](/assets/Img/BlogImages/004.BlogPost_19_10_2024/003.load_data_preview.png)
+![Photo 3](/assets/Img/BlogImages/004.BlogPost_19_10_2024/003.load_data_preview.png)
    
 5. After loading, a table will be created in Power BI model, typically named something like "Query1".
-   ![Photo 4](/assets/Img/BlogImages/004.BlogPost_19_10_2024/004.Query_table_created.png) 
+![Photo 4](/assets/Img/BlogImages/004.BlogPost_19_10_2024/004.Query_table_created.png) 
    
 6. Open the Power Query Editor to transform your "Query1" (e.g., renaming, adding parameters).
    - Go to Home > Transform > Transform Data.
-   ![Photo 5](/assets/Img/BlogImages/004.BlogPost_19_10_2024/005.Transform_data.png) 
+![Photo 5](/assets/Img/BlogImages/004.BlogPost_19_10_2024/005.Transform_data.png) 
    
 7. In the Power Query Editor:
    - First, rename the "Query1" table to something more descriptive SALES_DATA (based on the business data).
    - Double-click on the table name to rename it.
-   ![Photo 6](/assets/Img/BlogImages/004.BlogPost_19_10_2024/006.power_query_rename_table.png)
+![Photo 6](/assets/Img/BlogImages/004.BlogPost_19_10_2024/006.power_query_rename_table.png)
    
           
-11. Select the SALES_DATA table, then check the APPLIED STEPS pane on the right.
+8. Select the SALES_DATA table, then check the APPLIED STEPS pane on the right.
+![Photo 7](/assets/Img/BlogImages/004.BlogPost_19_10_2024/007.applied_steps.png)
+
+
 12. To edit the SQL query (applicable only if you added a SQL statement in step 3).
     - Right-click the Source step and select Edit Settings or click the gear icon.
 13. You can now create the two parameters that will be used to implement the incremental refresh policy.
