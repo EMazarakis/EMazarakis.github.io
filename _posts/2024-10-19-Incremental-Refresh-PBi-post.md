@@ -89,16 +89,15 @@ In order to create and publish the semantic model, we do the following steps:
               - Type: Date/Time
               - Suggested Values: Any value
               - Current Value: Set a specific date
- ![Photo 9]()  
+              
+ ![Photo 9](/assets/Img/BlogImages/004.BlogPost_19_10_2024/009.rangeStart.png)  
  
          - RangeEnd (End Date for Incremental Refresh)
              - Follow the same steps as for RangeStart.
+             - Click OK.
              
- ![Photo 10]()    
+ ![Photo 10](assets/Img/BlogImages/004.BlogPost_19_10_2024/010.RangeEnd.png)    
  
-         - Click OK.
-
- ![Photo 11]()   
          
 14. The two newly created parameters will now appear in the Queries pane of the Power Query Editor.
 15. Update the SQL query to include the parameters for filtering the data:
