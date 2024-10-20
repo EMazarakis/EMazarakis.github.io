@@ -39,7 +39,29 @@ In order to create and publish the semantic model, we do the following steps:
    - Database
    - Import: Enabled
    - SQL statement: Include the appropriate SQL query here if you prefer not to load the entire table.
-4. In the next window, you'll see a data preview. Click Load.
+4. In the next window, you'll see data preview. Click Load.
+5. After loading, a table will be created in Power BI model, typically named something like "Query1".
+6. Open the Power Query Editor to transform your "Query1" (e.g., renaming, adding parameters).
+   - Go to Home > Transform > Transform Data.
+7. In the Power Query Editor:
+   - First, rename the "Query1" table to something more descriptive SALES_DATA (based on the business data).
+        - Double-click on the table name to rename it.
+8. Select the SALES_DATA table, then check the APPLIED STEPS pane on the right.
+9. To edit the SQL query (applicable only if you added a SQL statement in step 3).
+    - Right-click the Source step and select Edit Settings or click the gear icon.
+10. You can now create the two parameters that will be used to implement the incremental refresh policy.
+    - You are still inside the Power Query Editor.
+    - Go to Home > Manage Parameters > New Parameter.
+    - In the pop-up window, create the following two parameters:
+         - RangeStart (Start Date for Incremental Refresh)
+              - Required: Enabled
+              - Type: Date/Time
+              - Suggested Values: Any value
+              - Current Value: Set a specific date
+           - RangeEnd (End Date for Incremental Refresh)
+             - Follow the same steps as for RangeStart.
+           - Click OK.
+
 
 
 
