@@ -51,13 +51,15 @@ In order to create and publish the semantic model, we do the following steps:
    
 8. Open the Power Query Editor to transform your "Query1" (e.g., renaming, adding parameters).
    - Go to Home > Transform > Transform Data.
-9. In the Power Query Editor:
+   ![Photo 5](/assets/Img/BlogImages/004.BlogPost_19_10_2024/005.Transform_data.png) 
+   
+10. In the Power Query Editor:
    - First, rename the "Query1" table to something more descriptive SALES_DATA (based on the business data).
         - Double-click on the table name to rename it.
-10. Select the SALES_DATA table, then check the APPLIED STEPS pane on the right.
-11. To edit the SQL query (applicable only if you added a SQL statement in step 3).
+11. Select the SALES_DATA table, then check the APPLIED STEPS pane on the right.
+12. To edit the SQL query (applicable only if you added a SQL statement in step 3).
     - Right-click the Source step and select Edit Settings or click the gear icon.
-12. You can now create the two parameters that will be used to implement the incremental refresh policy.
+13. You can now create the two parameters that will be used to implement the incremental refresh policy.
     - You are still inside the Power Query Editor.
     - Go to Home > Manage Parameters > New Parameter.
     - In the pop-up window, create the following two parameters:
@@ -69,30 +71,30 @@ In order to create and publish the semantic model, we do the following steps:
          - RangeEnd (End Date for Incremental Refresh)
              - Follow the same steps as for RangeStart.
          - Click OK.
-13. The two newly created parameters will now appear in the Queries pane of the Power Query Editor.
-14. Update the SQL query to include the parameters for filtering the data:
+14. The two newly created parameters will now appear in the Queries pane of the Power Query Editor.
+15. Update the SQL query to include the parameters for filtering the data:
     - Select the SALES_DATA table, right-click, and choose Advanced Editor.
-15. In the M query editor, modify the SQL query by adding M query functions, two times.
-16. Go to the WHERE clause in the SQL query (where the date filters are).
-17. Modify the expression by adding the following lines:
+16. In the M query editor, modify the SQL query by adding M query functions, two times.
+17. Go to the WHERE clause in the SQL query (where the date filters are).
+18. Modify the expression by adding the following lines:
     - This line of code replace the value of the date on >= side: & DateTime.ToText(RangeStart, "yyyy-MM-dd") &
     - This line of code replace the value of the date on < side: & DateTime.ToText(RangeEnd, "yyyy-MM-dd") &
-18. A warning message may appear in the Power Query Editor for the modified table. Click Edit Permissions.
-19. A pop-up window will display the transformed query with the parameter values applied. Click Run to load the filtered data.
-20. Once done, click Close & Apply from the Home menu to apply the changes.
-21. Now, you are out of the power query editor. It's time to set-up the incremental refresh policy for the SALES_DATA table.
+19. A warning message may appear in the Power Query Editor for the modified table. Click Edit Permissions.
+20. A pop-up window will display the transformed query with the parameter values applied. Click Run to load the filtered data.
+21. Once done, click Close & Apply from the Home menu to apply the changes.
+22. Now, you are out of the power query editor. It's time to set-up the incremental refresh policy for the SALES_DATA table.
     - Select the SALES_DATA table from the Data pane, go to More options (...) > Incremental Refresh.
-22. In the pop-up window, do the followings:
+23. In the pop-up window, do the followings:
     - First, select the desired table.
     - Enable the option Set import and refresh ranges.
     - Define the historical period for partitioning and refresh:
       - Archive data starting [X months] before refresh date (e.g., 3 months).
       - Incrementally refresh data starting [X months] before refresh date (e.g., 1 month, to define the last level of partition).
     - Click Apply.
-23. The incremental refresh policy is now defined but not yet applied.
-24. Publish the model to Power BI Service:
+24. The incremental refresh policy is now defined but not yet applied.
+25. Publish the model to Power BI Service:
     - Go to Home > Publish, and select the desired workspace.
-25. After publishing, you will see two items in the Power BI Service workspace:
+26. After publishing, you will see two items in the Power BI Service workspace:
    - The Semantic Model.
    - The Report. (This should be empty.)
 24. Set up the connection between Power BI Service and the Synapse source (handled by the service admin/owner):
