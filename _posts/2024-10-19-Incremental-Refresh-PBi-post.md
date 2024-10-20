@@ -179,6 +179,10 @@ In order to create and publish the semantic model, we do the following steps:
 
 ![Photo 24](/assets/Img/BlogImages/004.BlogPost_19_10_2024/024.refresh_history.png)
 
+- Now, in order to see the size of the semantic model after the full loading (first on-demand refresh), you can go to gear icon in the top right corner in the power bi service.
+  - Select Manage group storage.
+
+![Photo 25](/assets/Img/BlogImages/004.BlogPost_19_10_2024/025.pbi_model_size.png)
 
 
 ## Shared Capacity Limitations
