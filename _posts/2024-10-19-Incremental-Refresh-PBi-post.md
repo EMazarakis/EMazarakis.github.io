@@ -40,10 +40,12 @@ In order to create and publish the semantic model, we do the following steps:
    - Server
    - Database
    - Import: Enabled
-   - SQL statement: Include the appropriate SQL query here if you prefer not to load the entire table. 
-5. In the next window, you'll see data preview. Click Load.
-6. After loading, a table will be created in Power BI model, typically named something like "Query1".
-7. Open the Power Query Editor to transform your "Query1" (e.g., renaming, adding parameters).
+   - SQL statement: Include the appropriate SQL query here if you prefer not to load the entire table.
+   ![Photo 2](/assets/Img/BlogImages/004.BlogPost_19_10_2024/002.Connect_to_synapse.png) 
+  
+4. In the next window, you'll see data preview. Click Load.
+5. After loading, a table will be created in Power BI model, typically named something like "Query1".
+6. Open the Power Query Editor to transform your "Query1" (e.g., renaming, adding parameters).
    - Go to Home > Transform > Transform Data.
 8. In the Power Query Editor:
    - First, rename the "Query1" table to something more descriptive SALES_DATA (based on the business data).
