@@ -38,7 +38,7 @@ In order to create and publish the semantic model, we do the following steps:
    - Server
    - Database
    - Import: Enabled
-   - SQL statement: Include the appropriate SQL query here if you prefer not to load the entire table.
+   - SQL statement: Include the appropriate SQL query here if you prefer not to load the entire table. 
 4. In the next window, you'll see data preview. Click Load.
 5. After loading, a table will be created in Power BI model, typically named something like "Query1".
 6. Open the Power Query Editor to transform your "Query1" (e.g., renaming, adding parameters).
@@ -61,6 +61,20 @@ In order to create and publish the semantic model, we do the following steps:
          - RangeEnd (End Date for Incremental Refresh)
              - Follow the same steps as for RangeStart.
          - Click OK.
+11. The two newly created parameters will now appear in the Queries pane of the Power Query Editor.
+12. Update the SQL query to include the parameters for filtering the data:
+    - Select the SALES_DATA table, right-click, and choose Advanced Editor.
+13. In the M query editor, modify the SQL query by adding M query functions, two times.
+14. Go to the WHERE clause in the SQL query (where the date filters are).
+15. Modify the expression by adding the following lines:
+    - This line of code replace the value of the date on >= side: & DateTime.ToText(RangeStart, "yyyy-MM-dd") &
+    - This line of code replace the value of the date on < side: & DateTime.ToText(RangeEnd, "yyyy-MM-dd") &
+16. A warning message may appear in the Power Query Editor for the modified table. Click Edit Permissions.
+17. A pop-up window will display the transformed query with the parameter values applied. Click Run to load the filtered data.
+18. Once done, click Close & Apply from the Home menu to apply the changes.
+19. Now, you are out of the power query editor. It's time to set-up the incremental refresh policy for the SALES_DATA table.
+    - Select the SALES_DATA table from the Data pane, go to More options (...) > Incremental Refresh.
+20. In the pop-up window, do the followings:
 
 
 
