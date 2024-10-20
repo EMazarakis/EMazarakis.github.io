@@ -99,7 +99,12 @@ In order to create and publish the semantic model, we do the following steps:
  ![Photo 10](/assets/Img/BlogImages/004.BlogPost_19_10_2024/010.RangeEnd.png)    
  
          
-14. The two newly created parameters will now appear in the Queries pane of the Power Query Editor.
+- The two newly created parameters will now appear in the Queries pane of the Power Query Editor.
+
+![Photo 11](/assets/Img/BlogImages/004.BlogPost_19_10_2024/011.params.png)
+
+
+
 15. Update the SQL query to include the parameters for filtering the data:
     - Select the SALES_DATA table, right-click, and choose Advanced Editor.
 16. In the M query editor, modify the SQL query by adding M query functions, two times.
