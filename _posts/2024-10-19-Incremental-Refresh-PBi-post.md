@@ -34,7 +34,7 @@ The semantic model to be created will have the following specifications:
 In order to create and publish the semantic model, we do the following steps:
 1. Open a new Power BI (.pbix) file.
 2. Select Get Data > Azure > Azure Synapse Analytics SQL, then click Connect.
-![Photo 1](/assets/Img/BlogImages/004.BlogPost_19_10_2024/001.Get_Data.png =250x250) 
+![Photo 1](/assets/Img/BlogImages/004.BlogPost_19_10_2024/001.Get_Data.png){: width="50%"} 
 
 3. In the pop-up window, enter the following details:
    - Server
