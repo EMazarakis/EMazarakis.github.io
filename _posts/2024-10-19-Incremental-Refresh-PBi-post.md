@@ -37,7 +37,7 @@ The semantic model to be created will have the following specifications:
 
 ## Shared Capacity Limitations
 1. A shared capacity workspace has a semantic model/report size limit of 1 GB.
-2. We cannot connect to a Power BI shared workspace using SSMS or Tabular Editor to manipulate the tables’ partitions. (TODO)
+2. We cannot connect to a Power BI shared workspace using SSMS or Tabular Editor to manipulate the tables’ partitions. [See References 8,9,11](#references)
 
 
 ## References
