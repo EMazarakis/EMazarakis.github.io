@@ -30,6 +30,17 @@ The semantic model to be created will have the following specifications:
    - Partitions will be created for **XXX historical** months and **YYY refresh period** months. For this case, we will work with the month option.
    - Alternatively, we can select years, quarters, or days for the historical period and refresh period.
 
+## Steps for Model Creation
+In order to create and publish the semantic model, we do the following steps:
+1. Open a new Power BI (.pbix) file.
+2. Select Get Data > Azure > Azure Synapse Analytics SQL, then click Connect.
+3. In the pop-up window, enter the following details:
+   - Server
+   - Database
+   - Import: Enabled
+   - SQL statement: Include the appropriate SQL query here if you prefer not to load the entire table.
+4. In the next window, you'll see a data preview. Click Load.
+
 
 
 
