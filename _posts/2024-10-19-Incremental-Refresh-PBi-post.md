@@ -23,7 +23,7 @@ Our data resides in Azure Synapse Analytics, and we will connect to it using Pow
 ## Semantic model specifications
 The semantic model to be created will have the following specifications:
 1. Import storage mode will be utilized.
-   - Partitioning works only with this type of mode.
+   - Partitioning works only with this type of mode. [See References 5](#references)
 3. Two parameters will be implemented to enable incremental refresh. [See References 3,4](#references)
    - RangeStart & RangeEnd (be careful **case sensitive** and **DateTime** data type)
 4. Incremental refresh policy will be applied. [See References 1,2](#references)
@@ -58,7 +58,7 @@ In order to create and publish the semantic model, we do the following steps:
 
 
 - Open the Power Query Editor to transform your "Query1" (e.g., renaming, adding parameters).
-   - Go to Home > Transform > Transform Data.
+   - Go to Home > Transform data > Transform data.
 
 ![Photo 5](/assets/Img/BlogImages/004.BlogPost_19_10_2024/005.Transform_data.png) 
 
@@ -173,21 +173,21 @@ In order to create and publish the semantic model, we do the following steps:
 ![Photo 22](/assets/Img/BlogImages/004.BlogPost_19_10_2024/022.refresh_now.png)
 
 - To see the refresh duration:
-   -	Go to the semantic model, click More options (...) > Refresh History.
+   -	Go to the semantic model, click More options (...) > Refresh History.  [See References 6](#references)
 
 ![Photo 23](/assets/Img/BlogImages/004.BlogPost_19_10_2024/023.refresh_history.png)
 
 ![Photo 24](/assets/Img/BlogImages/004.BlogPost_19_10_2024/024.refresh_history.png)
 
 - Now, in order to see the size of the semantic model after the full loading (first on-demand refresh), you can go to gear icon in the top right corner in the power bi service.
-  - Select Manage group storage.
+  - Select Manage group storage. [See References 7](#references)
 
 ![Photo 25](/assets/Img/BlogImages/004.BlogPost_19_10_2024/025.pbi_model_size.png)
 
 
 ## Shared Capacity Limitations
 1. A shared capacity workspace has a semantic model/report size limit of 1 GB.
-2. We cannot connect to a Power BI shared workspace using SSMS or Tabular Editor to manipulate the tables’ partitions. [See References 8,9,11](#references)
+2. We cannot connect to a Power BI shared workspace using SSMS or Tabular Editor to manipulate the tables’ partitions. [See References 8,9,10,11](#references)
 
 
 ## References
@@ -197,7 +197,7 @@ In order to create and publish the semantic model, we do the following steps:
 4. [Reference Parameters in the M query](https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-dynamic-m-query-parameters#reference-the-parameters-in-the-m-query)
 5. [Partitions](https://learn.microsoft.com/en-us/power-bi/connect-data/incremental-refresh-xmla#partitions)
 6. [Refresh History of the semantic model](https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-connect-tools#semantic-model-refresh)
-7. [size of the Semantic Model on PBI Service](https://community.fabric.microsoft.com/t5/Service/How-do-I-check-the-size-of-a-dataset-published-to-to-the-Power/m-p/1054316#M94213)
+7. [Size of the Semantic Model on PBI Service](https://community.fabric.microsoft.com/t5/Service/How-do-I-check-the-size-of-a-dataset-published-to-to-the-Power/m-p/1054316#M94213)
 8. [Get the workspace connection URL](https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-connect-tools#to-get-the-workspace-connection-url)
 9. [Connect to workspace by using SSMS](https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-connect-tools#connect-to-a-workspace-by-using-ssms)
 10. [Refresh Partition with SSMS](https://learn.microsoft.com/en-us/power-bi/connect-data/incremental-refresh-xmla#refresh-management-with-sql-server-management-studio)
