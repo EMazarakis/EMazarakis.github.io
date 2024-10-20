@@ -126,10 +126,16 @@ In order to create and publish the semantic model, we do the following steps:
 ![Photo 15](/assets/Img/BlogImages/004.BlogPost_19_10_2024/015.edit_permission_message.png)
 
 
-20. A pop-up window will display the transformed query with the parameter values applied. Click Run to load the filtered data.
-21. Once done, click Close & Apply from the Home menu to apply the changes.
-22. Now, you are out of the power query editor. It's time to set-up the incremental refresh policy for the SALES_DATA table.
+- A pop-up window will display the transformed query with the parameter values applied. Click Run to load the filtered data.
+
+![Photo 16](/assets/Img/BlogImages/004.BlogPost_19_10_2024/016.run_query_with_param_values.png)
+
+
+- Once done, click Close & Apply from the Home menu to apply the changes.
+- Now, you are out of the power query editor. It's time to set-up the incremental refresh policy for the SALES_DATA table.
     - Select the SALES_DATA table from the Data pane, go to More options (...) > Incremental Refresh.
+
+
 23. In the pop-up window, do the followings:
     - First, select the desired table.
     - Enable the option Set import and refresh ranges.
