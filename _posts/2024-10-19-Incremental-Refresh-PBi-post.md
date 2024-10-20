@@ -75,7 +75,26 @@ In order to create and publish the semantic model, we do the following steps:
 19. Now, you are out of the power query editor. It's time to set-up the incremental refresh policy for the SALES_DATA table.
     - Select the SALES_DATA table from the Data pane, go to More options (...) > Incremental Refresh.
 20. In the pop-up window, do the followings:
-
+    - First, select the desired table.
+    - Enable the option Set import and refresh ranges.
+    - Define the historical period for partitioning and refresh:
+      - Archive data starting [X months] before refresh date (e.g., 3 months).
+      - Incrementally refresh data starting [X months] before refresh date (e.g., 1 month, to define the last level of partition).
+    - Click Apply.
+21. The incremental refresh policy is now defined but not yet applied.
+22. Publish the model to Power BI Service:
+    - Go to Home > Publish, and select the desired workspace.
+23. After publishing, you will see two items in the Power BI Service workspace:
+   - The Semantic Model.
+   - The Report.
+24. Set up the connection between Power BI Service and the Synapse source (handled by the service admin/owner):
+   - Go to the semantic model in Power BI Service, select More options (...) > Settings.
+   - Under Gateway and Cloud options, ensure the connection settings are correct.
+25. Perform an on-demand refresh:
+   - In the Power BI Service workspace, select the model and click Refresh Now.
+   - During this step, the incremental refresh policy will be applied, loading data and creating partitions.
+26. To view the refresh duration:
+   -	Go to the semantic model, click More options (...) > Refresh History.
 
 
 
