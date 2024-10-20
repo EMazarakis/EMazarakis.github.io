@@ -24,9 +24,9 @@ Our data resides in Azure Synapse Analytics, and we will connect to it using Pow
 The semantic model to be created will have the following specifications:
 1. Import storage mode will be utilized.
    - Partitioning works only with this type of mode.
-3. Two parameters will be implemented to enable incremental refresh.
+3. Two parameters will be implemented to enable incremental refresh. [See References 3,4](#references)
    - RangeStart & RangeEnd (be careful **case sensitive** and **DateTime** data type)
-4. Incremental refresh policy will be applied:
+4. Incremental refresh policy will be applied. [See References 1,2](#references)
    - Partitions will be created for **XXX historical** months and **YYY refresh period** months. For this case, we will work with the month option.
    - Alternatively, we can select years, quarters, or days for the historical period and refresh period.
 
