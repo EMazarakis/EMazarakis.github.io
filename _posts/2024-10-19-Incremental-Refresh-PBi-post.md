@@ -175,6 +175,9 @@ In order to create and publish the semantic model, we do the following steps:
 - To see the refresh duration:
    -	Go to the semantic model, click More options (...) > Refresh History.
 
+![Photo 23](/assets/Img/BlogImages/004.BlogPost_19_10_2024/023.refresh_history.png)
+
+![Photo 24](/assets/Img/BlogImages/004.BlogPost_19_10_2024/024.refresh_history.png)
 
 
 
