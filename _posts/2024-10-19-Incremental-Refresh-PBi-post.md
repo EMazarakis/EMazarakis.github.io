@@ -77,18 +77,29 @@ In order to create and publish the semantic model, we do the following steps:
  ![Photo 7](/assets/Img/BlogImages/004.BlogPost_19_10_2024/007.applied_steps.png)
 
       
-13. You can now create the two parameters that will be used to implement the incremental refresh policy.
+- You can now create the two parameters that will be used to implement the incremental refresh policy.
     - You are still inside the Power Query Editor.
     - Go to Home > Manage Parameters > New Parameter.
+      
+![Photo 8](/assets/Img/BlogImages/004.BlogPost_19_10_2024/008.new parameters.png)
+
     - In the pop-up window, create the following two parameters:
          - RangeStart (Start Date for Incremental Refresh)
               - Required: Enabled
               - Type: Date/Time
               - Suggested Values: Any value
               - Current Value: Set a specific date
+ ![Photo 9]()  
+ 
          - RangeEnd (End Date for Incremental Refresh)
              - Follow the same steps as for RangeStart.
+             
+ ![Photo 10]()    
+ 
          - Click OK.
+
+ ![Photo 11]()   
+         
 14. The two newly created parameters will now appear in the Queries pane of the Power Query Editor.
 15. Update the SQL query to include the parameters for filtering the data:
     - Select the SALES_DATA table, right-click, and choose Advanced Editor.
