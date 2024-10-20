@@ -102,9 +102,12 @@ In order to create and publish the semantic model, we do the following steps:
 ![Photo 11](/assets/Img/BlogImages/004.BlogPost_19_10_2024/011.params.png)
 
 
-
-15. Update the SQL query to include the parameters for filtering the data:
+- Update the SQL query to include the parameters for filtering the data:
     - Select the SALES_DATA table, right-click, and choose Advanced Editor.
+      
+![Photo 12](/assets/Img/BlogImages/004.BlogPost_19_10_2024/012.advanced_editor.png)
+
+
 16. In the M query editor, modify the SQL query by adding M query functions, two times.
 17. Go to the WHERE clause in the SQL query (where the date filters are).
 18. Modify the expression by adding the following lines:
