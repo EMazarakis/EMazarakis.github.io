@@ -108,12 +108,24 @@ In order to create and publish the semantic model, we do the following steps:
 ![Photo 12](/assets/Img/BlogImages/004.BlogPost_19_10_2024/012.advanced_editor.png)
 
 
-16. In the M query editor, modify the SQL query by adding M query functions, two times.
-17. Go to the WHERE clause in the SQL query (where the date filters are).
-18. Modify the expression by adding the following lines:
+- In the M query editor, modify the SQL query by adding M query functions, two times.
+
+![Photo 13](/assets/Img/BlogImages/004.BlogPost_19_10_2024/013.M_query_editor.png)
+
+
+- Go to the WHERE clause in the SQL query (where the date filters are).
+- Modify the expression by adding the following lines:
     - This line of code replace the value of the date on >= side: & DateTime.ToText(RangeStart, "yyyy-MM-dd") &
     - This line of code replace the value of the date on < side: & DateTime.ToText(RangeEnd, "yyyy-MM-dd") &
-19. A warning message may appear in the Power Query Editor for the modified table. Click Edit Permissions.
+
+![Photo 14](/assets/Img/BlogImages/004.BlogPost_19_10_2024/014.add_expressions.png)
+
+
+- A warning message may appear in the Power Query Editor for the modified table. Click Edit Permissions.
+
+![Photo 15](/assets/Img/BlogImages/004.BlogPost_19_10_2024/015.edit_permission_message.png)
+
+
 20. A pop-up window will display the transformed query with the parameter values applied. Click Run to load the filtered data.
 21. Once done, click Close & Apply from the Home menu to apply the changes.
 22. Now, you are out of the power query editor. It's time to set-up the incremental refresh policy for the SALES_DATA table.
