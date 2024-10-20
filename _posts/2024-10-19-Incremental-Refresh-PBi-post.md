@@ -58,9 +58,9 @@ In order to create and publish the semantic model, we do the following steps:
               - Type: Date/Time
               - Suggested Values: Any value
               - Current Value: Set a specific date
-           - RangeEnd (End Date for Incremental Refresh)
+         - RangeEnd (End Date for Incremental Refresh)
              - Follow the same steps as for RangeStart.
-           - Click OK.
+         - Click OK.
 
 
 
