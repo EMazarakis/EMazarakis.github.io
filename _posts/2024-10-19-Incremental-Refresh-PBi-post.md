@@ -56,6 +56,9 @@ In order to create and publish the semantic model, we do the following steps:
 10. In the Power Query Editor:
    - First, rename the "Query1" table to something more descriptive SALES_DATA (based on the business data).
         - Double-click on the table name to rename it.
+        ![Photo 6](/assets/Img/BlogImages/004.BlogPost_19_10_2024/006.power_query_rename_table.png)
+   
+          
 11. Select the SALES_DATA table, then check the APPLIED STEPS pane on the right.
 12. To edit the SQL query (applicable only if you added a SQL statement in step 3).
     - Right-click the Source step and select Edit Settings or click the gear icon.
