@@ -71,13 +71,12 @@ In order to create and publish the semantic model, we do the following steps:
    
           
 - Select the SALES_DATA table, then check the APPLIED STEPS pane on the right.
-
-![Photo 7](/assets/Img/BlogImages/004.BlogPost_19_10_2024/007.applied_steps.png)
-
-
-
-12. To edit the SQL query (applicable only if you added a SQL statement in step 3).
+- To edit the SQL query (applicable only if you added a SQL statement in step 3).
     - Right-click the Source step and select Edit Settings or click the gear icon.
+      
+ ![Photo 7](/assets/Img/BlogImages/004.BlogPost_19_10_2024/007.applied_steps.png)
+
+      
 13. You can now create the two parameters that will be used to implement the incremental refresh policy.
     - You are still inside the Power Query Editor.
     - Go to Home > Manage Parameters > New Parameter.
