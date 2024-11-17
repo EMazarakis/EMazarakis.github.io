@@ -28,6 +28,10 @@ With this setup, you can easily create a standalone application for generating a
 > default_image_dir = "specify_the_directory_path_where_the_generated_images_will_be_stored"
 > ```
 
+## APP gui
+
+![Photo 0](/assets/Img/BlogImages/001.BlogPost_14_09_2024/0.png)
+
 
 ## The Python code provided below is as follows
 
