@@ -28,10 +28,32 @@ With this setup, you can easily create a standalone application for generating a
 > default_image_dir = "specify_the_directory_path_where_the_generated_images_will_be_stored"
 > ```
 
-## APP gui
+## Graphical User Interface (GUI) of Python Application
+
+You need to provide input to the program through the GUI as follows:
+
+1. **Prompt:** Enter the text description that will be used to generate a relevant image.
+2. **Image Size:** Choose from three supported sizes: 1024x1024, 512x512, or 256x256.
+3. **Number of Images:** Select the number of images to generate, ranging from 1 to 10, in a single API call.
+4. **Choose Save Directory:** Select the directory where you would like to save the generated images.
+5. **Generate Images:** Click the button to begin generating the images
 
 ![Photo 0](/assets/Img/BlogImages/005.BlogPost_17_11_2024/000.GUI_for_app.PNG)
 
+## Make Python script executable
+
+After you create your python script you can make it executable following the step-by-step guide.
+First, you need to install PyInstaller.
+```
+pip install pyinstaller
+```
+
+Then you have to run the following command in the cmd:
+```
+pyinstaller --noconsole --onefile  path_to_your_script_name.py
+```
+1. noconsole: Suppresses the command prompt window.
+2. onefile: Packages everything into a single executable file.
 
 
 ## The Python code provided below is as follows
