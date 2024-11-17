@@ -44,13 +44,6 @@ You need to provide input to the program through the GUI as follows:
 ### You can see a video tutorial here
 [Video](https://github.com/user-attachments/assets/3fc9e197-25df-46f4-8ec5-8576a026d256)
 
-https://github.com/user-attachments/assets/3fc9e197-25df-46f4-8ec5-8576a026d256
-
-
-
-
-
-
 
 ## Make Python script executable
 
