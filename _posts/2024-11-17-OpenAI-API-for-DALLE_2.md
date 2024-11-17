@@ -41,6 +41,9 @@ You need to provide input to the program through the GUI as follows:
 ![Photo 0](/assets/Img/BlogImages/005.BlogPost_17_11_2024/000.GUI_for_app.PNG)
 
 
+### You can see a video tutorial here
+[Video](https://github.com/user-attachments/assets/3fc9e197-25df-46f4-8ec5-8576a026d256)
+
 https://github.com/user-attachments/assets/3fc9e197-25df-46f4-8ec5-8576a026d256
 
 
