@@ -7,6 +7,8 @@ author: "Eugene Mazarakis"
 tags: [Python, OpenAI Api, DALL-E 2]
 ---
 
+## Introduction
+
 In today's world, generative AI models like DALL·E 2 have become indispensable for creating high-quality, custom images from text prompts. Leveraging OpenAI's API, you can seamlessly integrate this powerful model into your Python projects to generate images based on your ideas.
 
 This article showcases a Python script that utilizes the OpenAI API to interact with the DALL·E 2 model. Moreover, the script includes a simple yet functional graphical user interface (GUI) built using Tkinter. This GUI allows you to input various parameters for the API call, making the process more intuitive and user-friendly.
@@ -26,7 +28,8 @@ With this setup, you can easily create a standalone application for generating a
 > default_image_dir = "specify_the_directory_path_where_the_generated_images_will_be_stored"
 > ```
 
-**The following is the Python code**
+
+## The Python code provided below is as follows
 
 ```
 import tkinter as tk
