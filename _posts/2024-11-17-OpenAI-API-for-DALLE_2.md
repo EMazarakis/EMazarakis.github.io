@@ -30,7 +30,8 @@ With this setup, you can easily create a standalone application for generating a
 
 ## APP gui
 
-![Photo 0](/assets/Img/BlogImages/001.BlogPost_14_09_2024/0.png)
+![Photo 0](/assets/Img/BlogImages/005.BlogPost_17_11_2024/000.GUI_for_app.PNG)
+
 
 
 ## The Python code provided below is as follows
