@@ -22,7 +22,11 @@ The **Settings** sheet contains all relevant lists for the dropdown cells and al
 The date picker is an add-in from the store, named Mini Calendar and Date Picker.
 Conditional formatting is applied to the Status and Priority values.
 
-You can donwload the excel template from here: 
+You can download the excel template from here: 
+
+### GUI
+![Photo 0](/assets/Img/BlogImages/006.BlogPost_11_01_2025/000.Task_Tracker_gui.PNG)
+
 
 ### Fields in the Task Entry Section
 **Auto Highlight**
