@@ -12,7 +12,7 @@ A task list proves its value by enabling you to plan, delegate, and monitor ever
 
 With our free Excel task template, staying on top of your tasks has never been easier—whether you're managing a critical project or tackling a key assignment. We've handled the heavy lifting so you can enjoy the satisfaction of checking off completed tasks.
 
-### Info
+### Fields in the Task Entry Section
 **Auto Highlight**
 1. Status
 2. Priority
@@ -38,11 +38,15 @@ With our free Excel task template, staying on top of your tasks has never been e
 2. Last Upd. Date
 3. End Date
 
+### Chart Analysis
+Additionally, a bar chart is included to give a clear visual breakdown of tasks by status, making it easier to assess overall project progress at a glance. Whether tasks are categorized as "Not Started," "In Progress," or "Completed," the bar chart provides a quick, intuitive way to track progress and identify areas that need attention. This added visual element ensures better communication and helps your team stay aligned on priorities.
 
-| Auto Highlight   | DropDown Columns | Manual Type | CheckBoxes | Semi-Manual Type |
-|------------------|----------------- |-------------|------------|------------------|
-| Status           |   Client         |  Number     | Important  |  Start Date      |
-| Priority         |   Status         |  Task       | Urgent     |  Last Upd. Date  |
-|                  |   Assignee       |  Notes      |            |  End Date        |
-|                  |   Year           |             |            |                  |
-|                  |    Priority      |             |            |                  |
+### Eisenhower Matrix/Analysis
+This tool helps you divide your tasks into four categories: the tasks you'll do first, the tasks you'll schedule for later, the tasks you'll delegate, and the tasks you'll delete.
+**How to prioritize in Eisenhower**
+1. *Do Now*:   Important=Yes & Urgent=Yes
+2. *Schedule*: Important=Yes & Urgent=No
+3. *Delegate*: Important=No  & Urgent=Yes
+4. *Delete*:   Important=No  & Urgent=No
+
+When you select the "Important" or "Urgent" checkboxes, each task is automatically added to the corresponding section: "Do Now," "Schedule," "Delegate," or "Delete."
