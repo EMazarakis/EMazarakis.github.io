@@ -1,1 +1,10 @@
-2024-11-17-OpenAI-API-for-DALLE_2.md
+---
+layout: post
+title: "Excel Task Tracker Template" 
+date: 2025-01-11
+categories: blog
+author: "Eugene Mazarakis"
+tags: [Excel, Template, Task-Tracker]
+---
+
+## Introduction
