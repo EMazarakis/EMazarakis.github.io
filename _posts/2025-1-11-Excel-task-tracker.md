@@ -25,6 +25,9 @@ Conditional formatting is applied to the Status and Priority values.
 > **NOTE**
 > You can download from here, the [Excel Template](https://github.com/EMazarakis/EMazarakis.github.io/blob/main/assets/Img/BlogImages/006.BlogPost_11_01_2025/TaskTracker_Template.xlsx).
 
+> **NOTE**
+> You can see a video tutorial here [Video](https://github.com/EMazarakis/EMazarakis.github.io/blob/main/assets/Img/BlogImages/006.BlogPost_11_01_2025/Task_Tracker.mp4)
+
 ### GUI
 ![Photo 0](/assets/Img/BlogImages/006.BlogPost_11_01_2025/000.Task_Tracker_gui.PNG)
 
