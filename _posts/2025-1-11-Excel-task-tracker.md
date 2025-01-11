@@ -39,17 +39,10 @@ With our free Excel task template, staying on top of your tasks has never been e
 3. End Date
 
 
-| Auto Highlight | DropDown Columns |
-| -------------- | ---------------- |
-| Status         |   Client         |
-| Priority       |   Status         |
-|                |   Assignee       |
-|                | Year             |
-|                |  Priority        |
-
-## Variable Declarations
-
-| **var** | **let** | **const** |
-|-----|-----|-----|
-| Declares a variable, optionally initializing it to a value. | Declares a block-scoped, local variable, optionally initializing it to a value. | Declares a block-scoped, read-only named constant. |
-| Variable declared by **`var`** must start with a letter, underscore ( _ ) or dollar sign ($) and can contain alphabetic, numeric, or underscore characters. | Variable declared by **`let`** must start with a letter, underscore ( _ ) or dollar sign ($) and can contain alphabetic, numeric, or underscore characters. | Variable declared by **`const`** must start with a letter, underscore ( _ ) or dollar sign ($) and can contain alphabetic, numeric, or underscore characters. |
+| Auto Highlight   | DropDown Columns | Manual Type | CheckBoxes | Semi-Manual Type |
+|------------------|----------------- |-------------|------------|------------------|
+| Status           |   Client         |  Number     | Important  |  Start Date      |
+| Priority         |   Status         |  Task       | Urgent     |  Last Upd. Date  |
+|                  |   Assignee       |  Notes      |            |  End Date        |
+|                  |   Year           |             |            |                  |
+|                  |    Priority      |             |            |                  |
