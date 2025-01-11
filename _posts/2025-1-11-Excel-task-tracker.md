@@ -39,3 +39,11 @@ With our free Excel task template, staying on top of your tasks has never been e
 3. End Date
 
 
+| Auto Highlight | DropDown Columns |
+| --- | --- |
+| Status | Client |
+| Priority | Status |
+|          | Assignee |
+|          | Year |
+|          |  Priority |
+
