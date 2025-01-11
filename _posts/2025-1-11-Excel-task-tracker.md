@@ -12,6 +12,18 @@ A task list proves its value by enabling you to plan, delegate, and monitor ever
 
 With our free Excel task template, staying on top of your tasks has never been easier—whether you're managing a critical project or tackling a key assignment. We've handled the heavy lifting so you can enjoy the satisfaction of checking off completed tasks.
 
+## Excel Tracker Template
+The template contains 2 sheets:
+1. TaskTracker
+2. Settings
+
+The **TaskTracker** sheet serves as the GUI of the template.
+The **Settings** sheet contains all relevant lists for the dropdown cells and also holds the dataset for the bar chart.
+The date picker is an add-in from the store, named Mini Calendar and Date Picker.
+Conditional formatting is applied to the Status and Priority values.
+
+You can donwload the excel template from here: 
+
 ### Fields in the Task Entry Section
 **Auto Highlight**
 1. Status
