@@ -12,7 +12,7 @@ This blog is dedicated to a Fabric Handbook designed to help you with certificat
 
 ![Photo 0](/assets/Img/BlogImages/007.BlogPost_26_01_2025/Fabric_Handbook_Cover_Photo.png)
 
-You can read the manual online from here [Fabric Handbook](https://simplebooklet.com/fabricnotes#page=1)
+You can read the manual online here [Fabric Handbook](https://simplebooklet.com/fabricnotes#page=1)
 
 > **NOTE**
-> You can download from here, the [Fabric Handbook](https://github.com/EMazarakis/EMazarakis.github.io/blob/main/assets/Img/BlogImages/007.BlogPost_26_01_2025/Fabric_Handbook.pdf).
+> You can download here, the [Fabric Handbook](https://github.com/EMazarakis/EMazarakis.github.io/blob/main/assets/Img/BlogImages/007.BlogPost_26_01_2025/Fabric_Handbook.pdf).
