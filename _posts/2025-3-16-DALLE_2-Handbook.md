@@ -19,5 +19,6 @@ This blog post is dedicated to the DALL·E 2 text-to-image AI model and is desig
 
 > **NOTE 2**
 > A sample of the generated Images and the corresponding prompt.
+
 ![Photo 1](/assets/Img/BlogImages/008.BlogPost_16_03_2025/Dall-E_Images_Sample.png)
 
