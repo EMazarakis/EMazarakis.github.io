@@ -80,7 +80,9 @@ delta_table_name = 'workspaces_items'
 spark.createDataFrame(result).write.mode("overwrite").format("delta").saveAsTable(delta_table_name)
 
 ```
+
 **Lakehouse Table**
+
 Now that the table has been created, you can run a query to search for any item in the Fabric workspaces.
 ![Photo 0](/assets/Img/BlogImages/009.BlogPost_18_05_2025/query_the_table.PNG)
 
