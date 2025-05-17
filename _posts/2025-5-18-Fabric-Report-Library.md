@@ -81,7 +81,7 @@ spark.createDataFrame(result).write.mode("overwrite").format("delta").saveAsTabl
 
 ```
 
-> **NOTE 1**
-> You can download from here, the [DALL-E 2 PromptBook](https://github.com/EMazarakis/EMazarakis.github.io/blob/main/assets/Img/BlogImages/008.BlogPost_16_03_2025/Dall-E_2_Handbook.pdf).
+**Power BI Report**
+The follwoing is the power bi report. Through the search bar you cn search any item in the list visualization.
 
 ![Photo 0](/assets/Img/BlogImages/008.BlogPost_16_03_2025/Dall-E_2_Handbook_cover.png)
