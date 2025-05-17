@@ -80,9 +80,13 @@ delta_table_name = 'workspaces_items'
 spark.createDataFrame(result).write.mode("overwrite").format("delta").saveAsTable(delta_table_name)
 
 ```
+**Lakehouse Table**
+Now that the table has been created, you can run a query to search for any item in the Fabric workspaces.
+![Photo 0](/assets/Img/BlogImages/009.BlogPost_18_05_2025/power_bi_report_list_worspaces.PNG)
+
 
 **Power BI Report**
-The follwoing is the power bi report. Through the search bar you cn search any item in the list visualization.
-![Photo 0](/assets/Img/BlogImages/009.BlogPost_18_05_2025/power_bi_report_list_worspaces.PNGg)
+The following is the Power BI report. Using the search bar, you can search for any item within the list visualization.
+![Photo 1](/assets/Img/BlogImages/009.BlogPost_18_05_2025/power_bi_report_list_worspaces.PNG)
 
 
