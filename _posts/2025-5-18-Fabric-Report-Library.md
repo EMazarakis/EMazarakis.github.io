@@ -11,6 +11,11 @@ tags: [Fabric, Notebook, Workspace, Lakehouse, Power BI]
 Often in Fabric, you need to locate a specific report or item (such as a notebook) but can't remember which workspace it's in. 
 This typically means going through each workspace one by one to find it. Now, you can use a Power BI report that lets you search directly and quickly identify the workspace containing the item you’re looking for. Alternatively, you can query the related table stored in the Lakehouse.
 
+### Steps
+1. Create an empty lakehouse.
+2. Create a notebook with the related python code.
+3. Query the table in lakehouse through the SQL endpoint.
+4. Then you can go to create a power bi report with a search bar.
 
 > **NOTE 1**
 > You can download from here, the [DALL-E 2 PromptBook](https://github.com/EMazarakis/EMazarakis.github.io/blob/main/assets/Img/BlogImages/008.BlogPost_16_03_2025/Dall-E_2_Handbook.pdf).
