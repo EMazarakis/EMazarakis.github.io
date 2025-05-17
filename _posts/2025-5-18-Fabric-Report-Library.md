@@ -82,7 +82,9 @@ spark.createDataFrame(result).write.mode("overwrite").format("delta").saveAsTabl
 ```
 **Lakehouse Table**
 Now that the table has been created, you can run a query to search for any item in the Fabric workspaces.
-![Photo 0](/assets/Img/BlogImages/009.BlogPost_18_05_2025/power_bi_report_list_worspaces.PNG)
+![Photo 0](/assets/Img/BlogImages/009.BlogPost_18_05_2025/query_the_table.PNG)
+
+---
 
 
 **Power BI Report**
