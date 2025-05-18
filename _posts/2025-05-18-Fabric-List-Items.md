@@ -12,6 +12,10 @@ Often in Fabric, you need to locate a specific report or item (such as a noteboo
 
 Now, you can query the related table stored in the Lakehouse, which contains all the relevant information for each Fabric workspace. Alternatively, you can use a Power BI report that provides the same data and allows you to search directly and quickly identify the workspace containing the item you’re looking for.
 
+The lakegouse table:
+![Photo 0](/assets/Img/BlogImages/009.BlogPost_18_05_2025/table.PNG)
+
+
 ### Steps
 1. Create an empty lakehouse.
 2. Create a notebook with the related python code.
@@ -85,11 +89,11 @@ spark.createDataFrame(result).write.mode("overwrite").format("delta").saveAsTabl
 **Lakehouse Table**
 
 Now that the table has been created, you can run a query to search for any item in the Fabric workspaces using the LIKE operator with wildcards.
-![Photo 0](/assets/Img/BlogImages/009.BlogPost_18_05_2025/query_list_tables.PNG)
+![Photo 1](/assets/Img/BlogImages/009.BlogPost_18_05_2025/query_list_tables.PNG)
 
 ---
 
 **Power BI Report**
 
 The following is the Power BI report. Using the search bar, you can search for any item within the list visualization.
-![Photo 1](/assets/Img/BlogImages/009.BlogPost_18_05_2025/power_bi_report_searching.PNG)
+![Photo 2](/assets/Img/BlogImages/009.BlogPost_18_05_2025/power_bi_report_searching.PNG)
