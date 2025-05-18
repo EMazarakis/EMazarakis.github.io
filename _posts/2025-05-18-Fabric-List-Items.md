@@ -92,5 +92,4 @@ Now that the table has been created, you can run a query to search for any item 
 **Power BI Report**
 
 The following is the Power BI report. Using the search bar, you can search for any item within the list visualization.
-![Photo 1](/assets/Img/BlogImages/009.BlogPost_18_05_2025/power_bi_report_list_worspaces.PNG)
-
+![Photo 1](/assets/Img/BlogImages/009.BlogPost_18_05_2025/power_bi_report_searching.PNG)
