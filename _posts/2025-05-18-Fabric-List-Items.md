@@ -84,8 +84,8 @@ spark.createDataFrame(result).write.mode("overwrite").format("delta").saveAsTabl
 
 **Lakehouse Table**
 
-Now that the table has been created, you can run a query to search for any item in the Fabric workspaces.
-![Photo 0](/assets/Img/BlogImages/009.BlogPost_18_05_2025/query_the_table.PNG)
+Now that the table has been created, you can run a query to search for any item in the Fabric workspaces using the LIKE operator with wildcards.
+![Photo 0](/assets/Img/BlogImages/009.BlogPost_18_05_2025/query_list_tables.PNG)
 
 ---
 
