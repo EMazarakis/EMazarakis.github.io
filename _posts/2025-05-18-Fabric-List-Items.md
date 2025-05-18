@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "List of Fabric Workspace items"
+title: "Index of Fabric Workspace Items"
 date: 2025-05-18
 categories: blog
 author: "Eugene Mazarakis"
