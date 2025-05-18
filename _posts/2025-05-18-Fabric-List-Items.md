@@ -13,6 +13,7 @@ Often in Fabric, you need to locate a specific report or item (such as a noteboo
 Now, you can query the related table stored in the Lakehouse, which contains all the relevant information for each Fabric workspace. Alternatively, you can use a Power BI report that provides the same data and allows you to search directly and quickly identify the workspace containing the item you’re looking for.
 
 **The lakehouse table**
+
 ![Photo 0](/assets/Img/BlogImages/009.BlogPost_18_05_2025/table.PNG)
 
 
