@@ -19,7 +19,7 @@ Now, you can query the related table stored in the Lakehouse, which contains all
 4. Then you can go to create a power bi report with a search bar.
 
 
-:snake: Following the python code:
+Following the python code:
 ```
 #The following Python code creates a table in the lakehouse, listing the items contained in each workspace.
 import pandas as pd
