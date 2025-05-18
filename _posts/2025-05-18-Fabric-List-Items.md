@@ -8,8 +8,9 @@ tags: [Fabric, Notebook, Workspace, Lakehouse, Power BI]
 ---
 
 ## Introduction
-Often in Fabric, you need to locate a specific report or item (such as a notebook) but can't remember which workspace it's in. 
-This typically means going through each workspace one by one to find it. Now, you can use a Power BI report that lets you search directly and quickly identify the workspace containing the item you’re looking for. Alternatively, you can query the related table stored in the Lakehouse.
+Often in Fabric, you need to locate a specific report or item (such as a notebook) but can’t remember which workspace it’s in. Typically, this involves using Fabric’s search bar or manually checking each workspace one by one. But what if you want to perform a more specific search?
+
+Now, you can query the related table stored in the Lakehouse, which contains all the relevant information for each Fabric workspace. Alternatively, you can use a Power BI report that provides the same data and allows you to search directly and quickly identify the workspace containing the item you’re looking for.
 
 ### Steps
 1. Create an empty lakehouse.
