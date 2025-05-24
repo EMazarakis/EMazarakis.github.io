@@ -22,6 +22,7 @@ In the linux folder we have the following two files:
 ## Solution
 
 **-fileTest000** 
+
 When you run the command cat -fileTest000, it doesn't display the contents of the file. It interprets the '-' as an option for something, as shown below.
 
 ![Photo 1](/assets/Img/BlogImages/010.BlogPost_24_05_2025/cat_unsuceed_dash.PNG)   
