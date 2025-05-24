@@ -24,7 +24,7 @@ In the linux folder we have the following two files:
 **-fileTest000** 
 
 When you run the command cat -fileTest000, it doesn't display the contents of the file. It interprets the '-' as an option for something, as shown below.
-So, if you want to display the contents of the file, you should provide the full file path.
+So, if you want to display the contents of the file, you should provide the full file path. One of the ways to do that is the following:
 
 **cat "$(pwd)/-fileTest000"**
 
