@@ -32,7 +32,6 @@ So, if you want to display the contents of the file, you should provide the full
 
 ---
 
-
 2. **test file name** 
 
 When you run the command cat test file name, it doesn't display the contents of the file. So, if you want to display the contents of the file, you should do one of the following:
@@ -42,6 +41,3 @@ When you run the command cat test file name, it doesn't display the contents of 
 - **cat test\ file\ name**
 
 ![Photo 2](/assets/Img/BlogImages/010.BlogPost_24_05_2025/cat_print_file_spaces.PNG)
-
-
-
