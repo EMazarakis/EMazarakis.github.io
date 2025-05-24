@@ -6,3 +6,18 @@ categories: blog
 author: "Eugene Mazarakis"
 tags: [Linux, display files, cat]
 ---
+
+
+# Introduction
+Many times in your job as a data engineer, you need to manage files on Linux. You might need to connect to a Linux server. 
+Sometimes these files may have strange names, such as 'this is a file' or '-FileName000'. 
+How can you display these files in Linux?
+
+In the linux folder we have the following two files:
+1. -fileTest000 (dash in front of the name)
+2. test file name (spaces between the words)
+
+![Photo 0](/assets/Img/BlogImages/010.BlogPost_24_05_2025/Working_Directory.PNG)   
+
+
+## Solution
