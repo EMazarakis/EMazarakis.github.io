@@ -11,3 +11,4 @@ tags: [Fabric, Lakehouse, Schema Creation]
 # Introduction
 You can read my article on Medium about creating schemas in Fabric Lakehouse.
 
+[Medium article](https://medium.com/@mazarakiseug/fabric-lakehouse-53df30b00f45).
