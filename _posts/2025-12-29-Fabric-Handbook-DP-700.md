@@ -17,9 +17,11 @@ This blog is dedicated to a Fabric Handbook designed to help you with certificat
 
 
 > **NOTE 2**
-> You can download here, the [Fabric Handbook](https://github.com/EMazarakis/EMazarakis.github.io/blob/main/assets/Img/BlogImages/012.BlogPost_29_12_2025/Fabric_Handbook_Cover_Photo_DP_700.png).
+> You can download here, the [Fabric Handbook](https://github.com/EMazarakis/EMazarakis.github.io/blob/main/assets/Img/BlogImages/012.BlogPost_29_12_2025/DP_700_FABRIC_NOTES.pdf).
 
 ![Photo 0](/assets/Img/BlogImages/012.BlogPost_29_12_2025/Fabric_Handbook_Cover_Photo_DP_700.png)
+
+
 
 
 
