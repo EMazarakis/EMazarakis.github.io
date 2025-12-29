@@ -6,3 +6,18 @@ categories: blog
 author: "Eugene Mazarakis"
 tags: [MS, Fabric, Power BI, SQL, DP-700]
 ---
+
+
+## Introduction
+This blog is dedicated to a Fabric Handbook designed to help you with certification exam preparation for DP-700 exam.
+
+
+> **NOTE 1**
+> You can read the manual online here [Fabric Handbook]()
+
+
+> **NOTE 2**
+> You can download here, the [Fabric Handbook]().
+
+![Photo 0](/assets/Img/BlogImages/007.BlogPost_26_01_2025/Fabric_Handbook_Cover_Photo.png)
+
