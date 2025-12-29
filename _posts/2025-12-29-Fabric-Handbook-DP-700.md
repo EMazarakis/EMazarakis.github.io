@@ -13,7 +13,7 @@ This blog is dedicated to a Fabric Handbook designed to help you with certificat
 
 
 > **NOTE 1**
-> You can read the manual online here [Fabric Handbook]()
+> You can read the manual online here [Fabric Handbook](https://simplebooklet.com/dp_700fabricnotes)
 
 
 > **NOTE 2**
