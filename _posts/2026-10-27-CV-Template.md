@@ -21,8 +21,7 @@ A quick presentation on Teams/Zoom:
 ![Photo 0](/assets/Img/BlogImages/014.BlogPost_27_10_2026/cv_photo.png)   
 
 
-### Presentation ppt & pdf: 
-
+### Presentation ppt & pdf
 You can download the template I use right here: [CV Template Download](https://github.com/EMazarakis/EMazarakis.github.io/blob/main/assets/Img/BlogImages/014.BlogPost_27_10_2026/CV_presentation.pptx).
 
 
